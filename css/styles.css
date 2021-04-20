@@ -1,0 +1,12 @@
+.bold {
+    font-weight: bold;
+}
+
+.not-bold {
+    font-weight: normal;
+}
+
+.question-verse-ref {
+    font-style: italic;
+    font-size: small;
+}

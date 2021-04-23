@@ -1,8 +1,26 @@
-var categoryTotals = [50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50];
+var categoryTotals = [];
+
+function prepareCategories(data) {
+    categoryTotals = [];
+
+    for(var i = 0; i < data.categories.length; i++) {
+        var cat = data.categories[i];
+        var questions = [];
+        for (var j = 0; j < cat.questions.length; j++) {
+            questions.push(5);
+        }
+
+        categoryTotals.push(questions);
+    }
+}
 
 function setText(langIndex) {
     var data = getTextData(langIndex);
     
+    if (categoryTotals.length === 0) {
+        prepareCategories(data);
+    }
+
     document.getElementById('navheader').innerHTML = data.navheader;
     document.getElementById('mainheader').innerHTML = data.mainheader;
     document.getElementById('subtitle1').innerHTML = data.subtitleOne;
@@ -10,26 +28,58 @@ function setText(langIndex) {
     document.getElementById('accordion').innerHTML = getCategoriesHTML(data);
 }
 
-function updateRadarGraph() {
+function getCategoryAverages() {
+    var categoryAverages = [];
+    for(var i = 0; i < categoryTotals.length; i++) {
+        categoryAverages.push(Number(calculateCategoryTotalByIndex(i)))
+    }
 
+    return categoryAverages;
 };
 
-function calculateCategoryTotal(categoryIndex) {
+function updateGraphs() {
+    var val = getCategoryAverages();
+    barChart.data.datasets[0].data = val;
+    barChart.update();
+    radarChart.data.datasets[0].data = val;
+    radarChart.update();
+};
+
+function fillCategoryWithRangeValues(category) {
+    for(var i = 0; i < category.questions.length; i++) {
+        var rangeName = `range${category.index},${i}`;
+        var contents = document.getElementById(rangeName).value;
+        var value = Number(contents);
+        categoryTotals[category.index][i] = value;
+    };
+}
+
+function calculateCategoryTotalByIndex(categoryIndex) {
+    var total = 0;
+
+    for(var i = 0; i < categoryTotals[categoryIndex].length; i++) {
+        total += categoryTotals[categoryIndex][i];
+    }
+
+    var average = (total / categoryTotals[categoryIndex].length) * 10; 
+    var subtotal = average.toFixed(2);
+    
+    return subtotal;
+}
+
+function calculateCategoryTotal(category) {
+    return calculateCategoryTotalByIndex(category.index);
+}
+
+function setCategoryNameValue(categoryIndex) {
     var data = getTextData(0);
     var cat = data.categories[categoryIndex];
-    var total = 0;
-    for(var i = 0; i < cat.questions.length; i++) {
-        var rangeName = `range${categoryIndex},${i}`;
-        var value = document.getElementById(rangeName).value;
-        total += Number(value);
-        console.log(`index: ${i}, value: ${value}, subtotal: ${total}`);
-    };
+    
+    fillCategoryWithRangeValues(cat);
 
-    var average = (total / cat.questions.length) * 10; 
-    var subtotal = average.toFixed(2);
+    var subtotal = calculateCategoryTotal(cat);
     document.getElementById(`headingButton${categoryIndex}`).innerHTML = `${cat.name} - ${subtotal}`;
-    categoryTotals[categoryIndex] = subtotal;
-    updateRadarGraph();
+    updateGraphs();
 }
 
 function getCategoriesHTML(data) {
@@ -61,7 +111,7 @@ function getCategoriesHTML(data) {
 }
 
 function rangeUpdated(categoryIndex) {
-    calculateCategoryTotal(categoryIndex);
+    setCategoryNameValue(categoryIndex);
 }
 
 function appendQuestions(category) {

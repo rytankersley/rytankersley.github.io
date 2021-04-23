@@ -16,7 +16,6 @@ function prepareCategories(data) {
 
 function setText(langIndex) {
     var data = getTextData(langIndex);
-    
     if (categoryTotals.length === 0) {
         prepareCategories(data);
     }
@@ -26,6 +25,7 @@ function setText(langIndex) {
     document.getElementById('subtitle1').innerHTML = data.subtitleOne;
     document.getElementById('subtitle2').innerHTML = data.subtitleTwo;
     document.getElementById('subtitle3').innerHTML = data.subtitleThree;
+    
     document.getElementById('accordion').innerHTML = getCategoriesHTML(data);
 }
 
@@ -47,6 +47,15 @@ function updateGraphs() {
 };
 
 function fillCategoryWithRangeValues(category) {
+    for(var i = 0; i < category.questions.length; i++) {
+        var rangeName = `range${category.index},${i}`;
+        var contents = document.getElementById(rangeName).value;
+        var value = Number(contents);
+        categoryTotals[category.index][i] = value;
+    };
+}
+
+function fillRangeWithCategoryValues(category) {
     for(var i = 0; i < category.questions.length; i++) {
         var rangeName = `range${category.index},${i}`;
         var contents = document.getElementById(rangeName).value;
@@ -93,7 +102,7 @@ function getCategoriesHTML(data) {
        <div class='card-header' id='heading${i}'>
           <h5 class='mb-0'>
              <button id='headingButton${i}' class='btn btn-link' data-toggle='collapse' data-target='#collapse${i}' aria-expanded='true' aria-controls='collapse${i}'>
-             ${cat.name} - 50.00
+             ${cat.name} - ${calculateCategoryTotal(cat)}
              </button>
           </h5>
        </div>
@@ -129,8 +138,8 @@ function appendQuestions(category) {
         `<label for=${rangeName} class='form-label'>${question.text}</label>` +
         `</br>` +
         `<label for=${rangeName} class='form-label question-verse-ref'>${verseRef}</label>` +
-        `<input type='range' class='custom-range' value='5' min='1' max='10' id=${rangeName} oninput='this.nextElementSibling.value = this.value; rangeUpdated(${category.index});'>` +
-        `<output>5</output>` +
+        `<input type='range' class='custom-range' value='${categoryTotals[category.index][i]}' min='1' max='10' id=${rangeName} oninput='this.nextElementSibling.value = this.value; rangeUpdated(${category.index});'>` +
+        `<output>${categoryTotals[category.index][i]}</output>` +
         `</br>` +
         `</br>`;
     };

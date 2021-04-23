@@ -25,6 +25,7 @@ function setText(langIndex) {
     document.getElementById('mainheader').innerHTML = data.mainheader;
     document.getElementById('subtitle1').innerHTML = data.subtitleOne;
     document.getElementById('subtitle2').innerHTML = data.subtitleTwo;
+    document.getElementById('subtitle3').innerHTML = data.subtitleThree;
     document.getElementById('accordion').innerHTML = getCategoriesHTML(data);
 }
 

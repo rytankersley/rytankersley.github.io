@@ -1364,6 +1364,7 @@ function getTextData(langIndex) {
             mainheader: "Healthy Church Questionnaire",
             subtitleOne: "On a scale of 1-10 (1 being the lowest and 10 being the highest),",
             subtitleTwo: "how would you rank each category below?",
+            subtitleThree: "(click category name to rank)",
             categories: [
                 worshipEN,
                 prayerEN,

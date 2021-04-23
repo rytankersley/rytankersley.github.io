@@ -18,16 +18,24 @@ function createBarChartConfig() {
       responsive: true,
       plugins: {
         legend: {
-          position: 'right',
-        },
-        title: {
-          display: true,
-          text: 'Chart.js Horizontal Bar Chart'
+            display: false
         }
       },
       scales: {
           x: {
-              suggestedMax: 100
+              suggestedMax: 100,
+              
+          },
+          y: {
+            ticks: {
+              font: function (context) {
+                var height = context.chart.height
+                var size = height > 220 ? 10 : 6; // setting max limit to 12
+                return {
+                    size: size
+                };
+              }
+            }
           }
       }
     }
@@ -48,9 +56,15 @@ function createRadarChartConfig() {
       scales: {
         r: {
             suggestedMin: 0,
-            suggestedMax: 100
+            suggestedMax: 100,
+            ticks: {
+              stepSize: 20
+            }
         }
-    }
+      },
+      legend: {
+        display: false
+      }
     },
   };
 };
@@ -61,7 +75,9 @@ function getInitialChartData() {
   
   var textData = getTextData(0);
   for(var i = 0; i <textData.categories.length; i++) {
-    labels.push(textData.categories[i].name);
+    var name = textData.categories[i].name;
+    var shortName = name.replace('Biblical ','');
+    labels.push(shortName);
     values.push(50.00);
   }
   

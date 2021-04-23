@@ -96,9 +96,9 @@ function getCategoriesHTML(data) {
              </button>
           </h5>
        </div>
-       <div id='collapse${i}' class='collapse show' aria-labelledby='heading${i}' data-parent='#accordion'>
+       <div id='collapse${i}' class='collapse' aria-labelledby='heading${i}' data-parent='#accordion'>
           <div class='card-body'>
-             <h6>${cat.description}</h6>
+             <p class='category-description'>${cat.description}</p>
              ${appendQuestions(cat)}    
          </div>
        </div>

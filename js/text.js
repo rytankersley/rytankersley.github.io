@@ -1362,35 +1362,32 @@ var worshipJP = {
     index: 0,
     name: "聖書的な礼拝",
     description: 
-    `The local churches come together to exalt God, sing, share testimonies of God’s grace,  
-    spur one another on toward Christ and his Word, and send one another out into service. As long as its  
-    members are following the Bible’s instructions for worship (1 Cor. 11, 1 Cor. 14, etc.),  
-    a healthy church is free to enjoy a wide range of variety, diversity, and creativity in their worship together.`,
+    `地域教会は、主を褒め称え、賛美の歌声をあげ、御恵の証をし、キリストと御言葉
+    によって歩みを進めるように励まし合うために共に集まり、そして奉仕の業へ
+    と派遣します。（1コリ11、1コリ14など）一人ひとりが聖書的な礼拝の
+    教えに従っているようなヘルシーチャーチにおいては、共に礼拝する中で
+    多種多様性と創造性を共有・享受するこができるのです。
+    `,
     questions: [{
         index: 0,
-        text: "To what extent would the corporate worship of your church be defined as in \"spirit and truth\"?",
-        verse: "God is spirit, and those who worship him must worship in spirit and truth.",
-        verseRef: "John 4:24"
+        text: "あなたの教会の公同礼拝は、「御霊と真理」による礼拝がなされているか、どのように評価しますか？",
+        verse: "『神は霊ですから、神を礼拝する人は、御霊と真理によって礼拝しなければなりません。』",
+        verseRef: "ヨハネの福音書 4:24"
     },{
         index: 1,
-        text: "To what extent would the individual worship of the members of your church be defined as being a " + 
-        "\"living sacrifice\" who is no longer conformed to the pattern of this world?",
-        verse: "I appeal to you therefore, brothers, by the mercies of God, to present your bodies as " +
-        "a living sacrifice, holy and acceptable to God, which is your spiritual worship. Do not be " +
-        "conformed to this world, but be transformed by the renewal of your mind, that by testing you " + 
-        "may discern what is the will of God, what is good and acceptable and perfect.",
-        verseRef: "Rom. 12:1-2"
+        text: "あなたの教会の個人礼拝が、この世と調子を合わせてはいない「生きたささげ物」となっているかについて、どのように評価しますか？",
+        verse: `「ですから、兄弟たち、私は神のあわれみによって、あなたがたに勧めます。あなたがたのからだを、神に喜ばれる、聖なる生きたささげ物として献げなさい。それこそ、あなたがたにふさわしい礼拝です。
+        この世と調子を合わせてはいけません。むしろ、心を新たにすることで、自分を変えていただきなさい。そうすれば、神のみこころは何か、すなわち、何が良いことで、神に喜ばれ、完全であるのかを見分けるようになります。」
+        `,
+        verseRef: "ローマ人への手紙 12:1,2"
     },{
         index: 2,
-        text: "To what extent does the worship of your church cause each member to \"Let the word of Christ dwell in you richly, " + 
-        "teaching and admonishing one another in all wisdom, singing psalms and hymns and spiritual songs, with thankfulness in " + 
-        "your hearts to God.\"",
-        verse: "Let the word of Christ dwell in you richly, teaching and admonishing one another in all wisdom, " + 
-        "singing psalms and hymns and spiritual songs, with thankfulness in your hearts to God.",
-        verseRef: "Col. 3:16"
+        text: `あなたの教会の公同礼拝によって、次の聖書箇所通りに一人一人が刷新されつづけていますか？\"`,
+        verse: `「キリストのことばが、あなたがたのうちに豊かに住むようにしなさい。知恵を尽くして互いに教え、忠告し合い、詩と賛美と霊の歌により、感謝をもって心から神に向かって歌いなさい。」`,
+        verseRef: "コロサイ人への手紙 3:16"
     },{
         index: 3,
-        text: "Overall: To what extent does the corporate and individual worship of your church focus your attention on Jesus?",
+        text: `あなたの教会の公同礼拝と個人礼拝において、どれだけイエス・キリストに焦点が置かれているかについて、どのように評価されますか？`,
         verse: "",
         verseRef: ""
     }]
@@ -2727,19 +2724,21 @@ function getTextData(langIndex) {
     var english = {
             navheader: "Healthy Church",
             mainheader: "Healthy Church Questionnaire",
-            subtitleOne: "On a scale of 1-10 (1 being the lowest and 10 being the highest),",
+            subtitleOne: "On a scale of 1-10",
             subtitleTwo: "how would you rank each category below?",
             subtitleThree: "(click category name to rank)",
-            categories: enCategories
+            categories: enCategories,
+            chartheader: "Chart Visualization"
         };
 
     var japanese = {
         navheader: "健康的な教会",
         mainheader: "健康的な教会",
-        subtitleOne: "おはようございます",
-        subtitleTwo: "こんにちは",
-        subtitleThree: "こんばんは",
-        categories: jpCategories
+        subtitleOne: "あなたの教会を以下のカテゴリーからどのように評価されますか？",
+        subtitleTwo: "0点から10点でお答えください。",
+        subtitleThree: "（カテゴリー名をクリックください。）",
+        categories: jpCategories,
+        chartheader: "Chart Visualization"
     }
     
     var data = [english, japanese];

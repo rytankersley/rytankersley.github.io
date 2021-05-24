@@ -1395,106 +1395,67 @@ var worshipJP = {
 
 var prayerJP = {
     index: 1,
-    name: "Biblical Prayer",
+    name: "聖書的な祈り",
     description: 
-    `Every major advance of the 
-    gospel in the book of Acts comes about 
-    as a response to the people of God praying 
-    together. If we desire the same, then like 
-    the early church, we must devote ourselves 
-    to prayer (Acts 2:42), regularly joining 
-    with one another with both dedication to and 
-    desperation for communion with God. And just 
-    like Bible study, private prayer is essential 
-    but insufficient. A healthy church not only 
-    prays but prays with one another.`,
+    `使徒の働きで起きた福音の前進に至った出来事のすべては、教会が心を一つにして祈っていたことへの応答として起きました。私たちも同じ結果を望むのならば、私たちは熱心に祈らなければなりません。（使徒2:42）同時に、神と一つになることへの献身と切実さにより、お互いを導き助け合うべきです。聖書勉強会と同様、個人の祈りは大事ですがそれだけでは不十分です。ヘルシーチャーチはただ祈るだけではなく、一人一人が集まって祈るのです。`,
     questions: [{
         index: 0,
-        text: `Rate your church's devotion to prayer.`,
+        text: `あなたの教会の祈りへの献身度を評価してください。`,
         verse: 
-        `And they devoted themselves to the apostles'
-        teaching and the fellowship, to the breaking of 
-        bread and the prayers.
+        `「彼らはいつも、使徒たちの教えを守り、交わりを持ち、パンを裂き、祈りをしていた。」
         `,
-        verseRef: "Acts 2:42"
+        verseRef: "使徒の働き 2:42"
     },{
         index: 1,
         text: 
-        `Rate your church's prayer. How well does 
-        it conform to "praying at all times in the 
-        Spirit, with all prayer and supplication."
+        `あなたの教会の祈りについてご評価ください。どれくらい「あらゆる祈りと願いによって、どんなときにも御霊によって」祈っていますか。
         `,
         verse: 
-        `praying at all times in the Spirit, with 
-        all prayer and supplication. To that end, 
-        keep alert with all perseverance, making 
-        supplication for all the saints.
+        `「あらゆる祈りと願いによって、どんなときにも御霊によって祈りなさい。そのために、目を覚ましていて、すべての聖徒のために、忍耐の限りを尽くして祈りなさい。」
         `,
-        verseRef: "Eph. 6:18"
+        verseRef: "エペソ人への手紙 6:18"
     },{
         index: 2,
         text: 
-        `Rate how well your church's prayer promotes 
-        unity, orderliness, and the building up of 
-        others.
+        `あなたの教会の祈りによって、一致・秩序・互いの成長に役立てようという精神が促されているとどのくらい評価しますか？
         `,
         verse: 
-        `What then, brothers? When you come together, each one 
-        has a hymn, a lesson, a revelation, a tongue, or an 
-        interpretation. Let all things be done for building up. If 
-        any speak in a tongue, let there be only two or at most three, 
-        and each in turn, and let someone interpret. But if there is no 
-        one to interpret, let each of them keep silent in church and 
-        speak to himself and to God. Let two or three prophets speak, 
-        and let the others weigh what is said. If a revelation is made 
-        to another sitting there, let the first be silent. For you can 
-        all prophesy one by one, so that all may learn and all be 
-        encouraged, and the spirits of prophets are subject to prophets. 
-        For God is not a God of confusion but of peace.
+        `「それでは、兄弟たち、どうすればよいのでしょう。あなたがたが集まるときには、それぞれが賛美したり、教えたり、啓示を告げたり、異言を話したり、解き明かしたりすることができます。そのすべてのことを、成長に役立てるためにしなさい。
+        だれかが異言で語るのであれば、二人か、多くても三人で順番に行い、一人が解き明かしをしなさい。
+        解き明かす者がいなければ、教会では黙っていて、自分に対し、また神に対して語りなさい。
+        預言する者たちも、二人か三人が語り、ほかの者たちはそれを吟味しなさい。
+        席に着いている別の人に啓示が与えられたら、先に語っていた人は黙りなさい。
+        だれでも学び、だれでも励ましが受けられるように、だれでも一人ずつ預言することができるのです。
+        預言する者たちの霊は預言する者たちに従います。
+        神は混乱の神ではなく、平和の神なのです。」        
         `,
-        verseRef: "1 Cor. 14:26-33"
+        verseRef: "コリント人への手紙 第一  14:26-33"
     },{
         index: 3,
         text: 
-        `Rate the balance of your church's prayer along 5 key aspects: 
-        Praise, Thanksgiving, Confession, Requests and Intercession.
+        `あなたの教会の祈りを以下の５つの重要な側面から評価してください。(1)礼拝の祈り、(2)感謝の祈り、(3)告白の祈り、(4)願いの祈り、(5)とりなしの祈り。
         `,
         verse: 
-        `If we confess our sins, he is faithful and just to 
-        forgive us our sins and to cleanse us from all 
-        unrighteousness.  /  do not be anxious about 
-        anything, but in everything by prayer and supplication with 
-        thanksgiving let your requests be made known to God.  And the peace 
-        of God, which surpasses all understanding, will guard your 
-        hearts and your minds in Christ Jesus.  /  Praise 
-        the Lord, for the Lord is good; sing to his name, for it is 
-        pleasant!  / give thanks in all 
-        circumstances; for this is the will of God in Christ Jesus for 
-        you.  / First of all, then, I urge that supplications, 
-        prayers, intercessions, and thanksgivings be made for all people.
+        `「もし私たちが自分の罪を告白するなら、神は真実で正しい方ですから、その罪を赦し、私たちをすべての不義からきよめてくださいます。」・「何も思い煩わないで、あらゆる場合に、感謝をもってささげる祈りと願いによって、あなたがたの願い事を神に知っていただきなさい。
+        そうすれば、すべての理解を超えた神の平安が、あなたがたの心と思いをキリスト・イエスにあって守ってくれます。」・ 「ハレルヤ　主はまことにいつくしみ深い。主の御名にほめ歌を歌え。その御名は実に麗しい。」・「すべてのことにおいて感謝しなさい。これが、キリスト・イエスにあって神があなたがたに望んでおられることです。」・「そこで、私は何よりもまず勧めます。すべての人のために、王たちと高い地位にあるすべての人のために願い、祈り、とりなし、感謝をささげなさい。」       
         `,
-        verseRef: "1 Jn 1:9, Phil. 4:6-7, Ps.135:3, 1 Thess. 5:18, 1 Tim. 2:1"
+        verseRef: "ヨハネの手紙 第一 1:9、ピリピ人への手紙 4:6-7、詩篇 135:3、テモテへの手紙 第一 2:1"
     },{
         index: 4,
         text: 
-        `How often does your church pray for the lost and for your 
-        evangelistic efforts?
+        `あなたの教会はどれくらい頻繁に失われた魂？？と伝道の働き？のために祈りますか？
         `,
         verse: 
-        `Continue steadfastly in prayer, being watchful in it with 
-        thanksgiving.  At the same time, pray also for us, that God 
-        may open to us a door for the word, to declare the mystery of 
-        Christ, on account of which I am in prison that I may make it 
-        clear, which is how I ought to speak. Walk in wisdom toward 
-        outsiders, making the best use of the time.  Let your speech 
-        always be gracious, seasoned with salt, so that you may know 
-        how you ought to answer each person.
+        `「たゆみなく祈りなさい。感謝をもって祈りつつ、目を覚ましていなさい。
+        同時に、私たちのためにも祈ってください。神がみことばのために門を開いてくださって、私たちがキリストの奥義を語れるように祈ってください。この奥義のために、私は牢につながれています。
+        また、私がこの奥義を、語るべき語り方で明らかに示すことができるように、祈ってください。
+        外部の人たちに対しては、機会を十分に活かし、知恵をもって行動しなさい。
+        あなたがたのことばが、いつも親切で、塩味の効いたものであるようにしなさい。そうすれば、一人ひとりにどのように答えたらよいかが分かります。」        
         `,
-        verseRef: "Col. 4:2-6"
+        verseRef: "コロサイ人への手紙 4:2-6"
     },{
         index: 5,
-        text: `Overall: How much would your church be known as a 
-        "praying church"?`,
+        text: `まとめ：あなたの教会はどれくらい「祈りの教会」として知られていますか？`,
         verse: ``,
         verseRef: ""
     }]
@@ -1502,19 +1463,14 @@ var prayerJP = {
 
 var givingJP = {
     index: 2,
-    name: "Biblical Giving",
+    name: "聖書的な献金",
     description: 
-    `Healthy churches are financially self-sustaining or at least 
-    moving in that direction. More importantly, though, healthy churches 
-    make generous giving to the cause of the gospel a regular corporate 
-    practice, as described in 1 Corinthians 16:1–4. And that generosity 
-    shouldn’t be confined to our finances. The desire to see the gospel 
-    change lives should characterize every facet of our own.
+    `***************************
     `,
     questions: [{
         index: 0,
         text: 
-        `What percentage of the members of your church tithe on a regular basis?
+        `あなたの教会では、何％くらいの方が什一献金を定期的にされていますか？
         `,
         verse: 
         ``,
@@ -1522,121 +1478,67 @@ var givingJP = {
     },{
         index: 1,
         text: 
-        `What percentage of the members of your church give 
-        sacrificially and cheerfully for the expansion of God's 
-        kingdom?
+        `あなたの教会では、何％くらいの方が御国拡大のためならば犠牲を伴っても喜んで捧げていますか？
         `,
         verse: 
-        `We want you to know, brothers, about the grace of God 
-        that has been given among the churches of Macedonia, 
-        for in a severe test of affliction, their abundance of 
-        joy and their extreme poverty have overflowed in a wealth of 
-        generosity on their part.  For they gave according to their 
-        means, as I can testify, and beyond their means, of their 
-        own accord,  begging us earnestly for the favor of taking 
-        part in the relief of the saints— and this, not as we 
-        expected, but they gave themselves first to the Lord and 
-        then by the will of God to us. / Each 
-        one must give as he has decided in his heart, not reluctantly 
-        or under compulsion, for God loves a cheerful giver. And 
-        God is able to make all grace abound to you, so that having 
-        all sufficiency in all things at all times, you may abound 
-        in every good work.
+        `「さて、兄弟たち。私たちは、マケドニアの諸教会に与えられた神の恵みを、あなたがたに知らせようと思います。
+        彼らの満ちあふれる喜びと極度の貧しさは、苦しみによる激しい試練の中にあってもあふれ出て、惜しみなく施す富となりました。
+        私は証しします。彼らは自ら進んで、力に応じて、また力以上に献げ、
+        聖徒たちを支える奉仕の恵みにあずかりたいと、大変な熱意をもって私たちに懇願しました。
+        そして、私たちの期待以上に、神のみこころにしたがって、まず自分自身を主に献げ、私たちにも委ねてくれました。」・「一人ひとり、いやいやながらでなく、強いられてでもなく、心で決めたとおりにしなさい。神は、喜んで与える人を愛してくださるのです。
+        神はあなたがたに、あらゆる恵みをあふれるばかりに与えることがおできになります。あなたがたが、いつもすべてのことに満ち足りて、すべての良いわざにあふれるようになるためです。」        
         `,
-        verseRef: "2 Cor. 8:1-5, 9:7-8"
+        verseRef: "コリント人への手紙 第二 8:1-5, 9:7-8"
     },{
         index: 2,
         text: 
-        `What percentage of your church's funds and time are 
-        spent on ministries outside of your church such as 
-        missions, orphan care, ministries to the poor? 
+        `あなたの教会資金と時間の何%が、福音宣教、児童養護施設の支援、経済的に恵まれない人たちへの支援など、教会外のミニストリーに当てられていますか？
         `,
         verse: 
-        `As it is written,
-
-        “He has distributed freely, he has given to the poor;
-            his righteousness endures forever.”
-        
-        He who supplies seed to the sower and bread for food will 
-        supply and multiply your seed for sowing and increase the 
-        harvest of your righteousness. You will be enriched in 
-        every way to be generous in every way, which through us will 
-        produce thanksgiving to God. For the ministry of this 
-        service is not only supplying the needs of the saints but 
-        is also overflowing in many thanksgivings to God. By their 
-        approval of this service, they will glorify God because 
-        of your submission that comes from your confession of the 
-        gospel of Christ, and the generosity of your contribution 
-        for them and for all others, while they long for you 
-        and pray for you, because of the surpassing grace of God 
-        upon you. Thanks be to God for his 
-        inexpressible gift! / In all things I have 
-        shown you that by working hard in this way we must help 
-        the weak and remember the words of the Lord Jesus, how he 
-        himself said, ‘It is more blessed to give than to receive.
+        `「『彼は貧しい人々に惜しみなく分け与えた。彼の義は永遠にとどまる』と書かれているようにです。
+        種蒔く人に種と食べるためのパンを与えてくださる方は、あなたがたの種を備え、増やし、あなたがたの義の実を増し加えてくださいます。
+        あなたがたは、あらゆる点で豊かになって、すべてを惜しみなく与えるようになり、それが私たちを通して神への感謝を生み出すのです。
+        なぜなら、この奉仕の務めは、聖徒たちの欠乏を満たすだけではなく、神に対する多くの感謝を通してますます豊かになるからです。
+        この務めが証拠となって、彼らは、あなたがたがキリストの福音の告白に対して従順であり、自分たちや、すべての人に惜しみなく与えていることを理解して、神をあがめるでしょう。
+        そして彼らは、あなたがたのために祈るとき、あなたがたに与えられた、神のこの上なく豊かな恵みのゆえに、あなたがたを慕うようになります。
+        ことばに表せないほどの賜物のゆえに、神に感謝します。」・「このように労苦して、弱い者を助けなければならないこと、また、主イエスご自身が『受けるよりも与えるほうが幸いである』と言われたみことばを、覚えているべきだということを、私はあらゆることを通してあなたがたに示してきたのです。」
         `,
-        verseRef: "2 Cor. 9:9-15, Acts 20:35"
+        verseRef: "コリント人への手紙 第二 9:9-15, 使徒の働き 20:35"
     },{
         index: 3,
         text: 
-        `How "transparent" are the financial matters of your 
-        church?
+        `あなたの教会の金銭的運営は、どれくらい「透明性」がありますか？
         `,
         verse: 
-        `But a man named Ananias, with his wife Sapphira, sold a piece 
-        of property, and with his wife's knowledge he kept back 
-        for himself some of the proceeds and brought only a part of it 
-        and laid it at the apostles' feet. But Peter said, “Ananias, 
-        why has Satan filled your heart to lie to the Holy Spirit and 
-        to keep back for yourself part of the proceeds of the land? 
-        While it remained unsold, did it not remain your own? And after 
-        it was sold, was it not at your disposal? Why is it that you 
-        have contrived this deed in your heart? You have not lied to 
-        man but to God.” When Ananias heard these words, he fell 
-        down and breathed his last. And great fear came 
-        upon all who heard of it. The young men rose and 
-        wrapped him up and carried him out and buried him.
-
-        After an interval of about three hours his 
-        wife came in, not knowing what had happened. And Peter 
-        said to her, “Tell me whether you sold the land for 
-        so much.” And she said, “Yes, for so much.” But Peter said 
-        to her, “How is it that you have agreed together to 
-        test the Spirit of the Lord? Behold, the feet of those 
-        who have buried your husband are at the door, and they 
-        will carry you out.” Immediately she fell down at his 
-        feet and breathed her last. When the young men came 
-        in they found her dead, and they carried her out and 
-        buried her beside her husband. And great fear came 
-        upon the whole church and upon all who heard of these things."
+        `「ところが、アナニアという人は、妻のサッピラとともに土地を売り、
+        妻も承知のうえで、代金の一部を自分のために取っておき、一部だけを持って来て、使徒たちの足もとに置いた。
+        すると、ペテロは言った。『アナニア。なぜあなたはサタンに心を奪われて聖霊を欺き、地所の代金の一部を自分のために取っておいたのか。
+        売らないでおけば、あなたのものであり、売った後でも、あなたの自由になったではないか。どうして、このようなことを企んだのか。あなたは人を欺いたのではなく、神を欺いたのだ。』
+        このことばを聞くと、アナニアは倒れて息が絶えた。これを聞いたすべての人たちに、大きな恐れが生じた。
+        若者たちは立ち上がって彼のからだを包み、運び出して葬った。
+        　さて、三時間ほどたって、アナニアの妻がこの出来事を知らずに入って来た。
+        ペテロは彼女に言った。『あなたがたは地所をこの値段で売ったのか。私に言いなさい。』彼女は『はい、その値段です』と言った。
+        そこでペテロは彼女に言った。「なぜあなたがたは、心を合わせて主の御霊を試みたのか。見なさい。あなたの夫を葬った人たちの足が戸口まで来ている。彼らがあなたを運び出すことになる。」
+        すると、即座に彼女はペテロの足もとに倒れて、息絶えた。入って来た若者たちは、彼女が死んでいるのを見て運び出し、夫のそばに葬った。
+        そして、教会全体と、このことを聞いたすべての人たちに、大きな恐れが生じた。」
         `,
-        verseRef: "Acts 5:1-11"
+        verseRef: "使徒の働き 5:1-11"
     },{
         index: 4,
         text: 
-        `How well do the leaders model generous giving for the 
-        church?
+        `あなたの教会のリーダーたちは、寛大に分け与えることの良き模範をどのくらい教会に示していますか？
         `,
         verse: 
-        `Then the leaders of fathers' houses made their freewill 
-        offerings, as did also the leaders of the tribes, the 
-        commanders of thousands and of hundreds, and the officers 
-        over the king's work. They gave for the service of the 
-        house of God 5,000 talents and 10,000 darics of gold, 
-        10,000 talents of silver, 18,000 talents of bronze and 
-        100,000 talents of iron. And whoever had precious stones 
-        gave them to the treasury of the house of the Lord, in 
-        the care of Jehiel the Gershonite. Then the people rejoiced 
-        because they had given willingly, for with a whole heart 
-        they had offered freely to the Lord. David the king also 
-        rejoiced greatly.
+        `「すると、一族の長たち、イスラエル各部族の長たち、千人隊と百人隊の長たち、さらに王家の執務の長たちは、自ら進んで、
+        神の宮の奉仕のために、金五千タラント一万ダリク、銀一万タラント、青銅一万八千タラント、鉄十万タラントを献げた。
+        宝石を持っている者は、これをゲルション人エヒエルの手に託して主の宮の宝物倉に献げた。
+        民は、長たちが自ら進んで献げたことを喜んだ。彼らが全き心をもって、自ら進んで主に献げたからである。ダビデ王も大いに喜んだ。」        
         `,
-        verseRef: "1 Chron. 29:6-9"
+        verseRef: "歴代誌 第一 29:6-9"
     },{
         index: 5,
         text: 
-        `Overall: How much would your church be known as a 
-        "giving and generous church"?
+        `まとめ：あなたの教会はどれくらい「惜しまず与える寛大な教会」として知られていますか？
         `,
         verse: 
         ``,
@@ -1646,7 +1548,7 @@ var givingJP = {
 
 var missionJP = {
     index: 3,
-    name: "Biblical Mission",
+    name: "聖書的な宣教",
     description: `Congregations must be actively engaged in making 
     disciples locally and globally. Every member is a disciple maker 
     in the world, and healthy churches are both organized and 
@@ -1730,7 +1632,7 @@ var missionJP = {
 
 var evangelismJP = {
     index: 4,
-    name: "Biblical Evangelism",
+    name: "聖書的な伝道",
     description: `The word “church” comes from a Greek word that means 
     “an assembly of called-out ones.” It denotes that before a 
     church can ever actually gather, the people must first hear 
@@ -1846,7 +1748,7 @@ var evangelismJP = {
 
 var discipleshipJP = {
     index: 5,
-    name: "Biblical Discipleship",
+    name: "聖書的な弟子化訓練",
     description: 
     `According to Matthew 28:16–20, the command to 
     “make disciples of all nations” is qualified by two activities: 
@@ -2018,7 +1920,7 @@ var discipleshipJP = {
 
 var teachingJP = {
     index: 6,
-    name: "Biblical Teaching/Preaching",
+    name: "聖書的な教え・説教",
     description: 
     `Faithful, biblical teaching is the means by which 
     Jesus leads his church. Individual Bible study is essential, but 
@@ -2144,7 +2046,7 @@ var teachingJP = {
 
 var leadershipJP = {
     index: 7,
-    name: "Biblical Leadership",
+    name: "聖書的なリーダーシップ",
     description: 
     `One of the many gifts of the Holy Spirit is that of leadership. 
     No church can experience health without the leadership of the 
@@ -2323,7 +2225,7 @@ var leadershipJP = {
 
 var disciplineJP = {
     index: 8,
-    name: "Biblical Accountability & Discipline",
+    name: "聖書的なアカウンタビリティと霊的訓練",
     description: `Just as we need fellowship to spur us on to 
     obedience, we need accountability to call us back from sin. 
     Healthy churches must be places where the young in faith can be 
@@ -2434,7 +2336,7 @@ var disciplineJP = {
 
 var fellowshipJP = {
     index: 9,
-    name: "Biblical Fellowship",
+    name: "聖書的な交わり",
     description: `Fellowship described in the Bible encapsulates all its “one anothers:” love, serve, care, teach, serve, admonish, exalt, build up, and 
     bear with one another. Biblical fellowship is about sharing our lives with fellow church members, allowing the simplest and the deepest aspects of 
     our days to become entwined. No one is intended to live the Christian life in isolation, and the lone Christian is just as likely to wither in 
@@ -2582,7 +2484,7 @@ var fellowshipJP = {
 
 var membershipJP = {
     index: 10,
-    name: "Biblical Membership",
+    name: "聖書的な教会籍",
     description: `Almost every time the word “ecclesia” (church as defined above) appears in the New Testament, it refers to a particular 
     gathering of Christians in a particular place. It’s used to describe people who know one another and share their very lives. They 
     realize and celebrate that they are a part of something larger: the universal church that is united across all space and time. But 
@@ -2656,7 +2558,7 @@ var membershipJP = {
 
 var ordinanceJP = {
     index: 11,
-    name: "Practice of Biblical Ordinances",
+    name: "聖書的聖礼典",
     description: `Healthy churches regularly observe believer’s baptism and the Lord’s Supper as a part of their worship services. 
     Both are designed to declare and affirm our commitment to Christ and his body. Some churches share the Lord’s Supper each 
     week, and others share it each month. Some churches have baptistries, others have bathtubs. There is freedom of expression as 

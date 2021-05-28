@@ -154,5 +154,5 @@ function appendQuestions(category) {
 }
 
 function load() {
-    setText(0);
+    setText(1);
 }

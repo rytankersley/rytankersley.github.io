@@ -1249,7 +1249,7 @@ var membershipEN = {
         createQuestion(2, 
             `How committed are the members of your church to working together, equipping one another, and building the church up in love?
             `, 
-            `15 Rather, speaking the truth in love, we are to grow up in every way into him who is the head, 
+            `Rather, speaking the truth in love, we are to grow up in every way into him who is the head, 
             into Christ, from whom the whole body, joined and held together by every joint with which it is equipped, 
             when each part is working properly, makes the body grow so that it builds itself up in love.
             `, 
@@ -1868,7 +1868,7 @@ var teachingJP = {
     },{
         index: 7,
         text: 
-        `Overall: How much would your church be known as a "Bible teaching, Bible believing church"?
+        `まとめ：あなたの教会はどれくらい「御言葉を教える、御言葉を信じる教会」として知られていますか？
         `,
         verse: 
         ``,
@@ -2262,71 +2262,68 @@ var fellowshipJP = {
 var membershipJP = {
     index: 10,
     name: "聖書的な教会籍",
-    description: `Almost every time the word “ecclesia” (church as defined above) appears in the New Testament, it refers to a particular 
-    gathering of Christians in a particular place. It’s used to describe people who know one another and share their very lives. They 
-    realize and celebrate that they are a part of something larger: the universal church that is united across all space and time. But 
-    membership in that body is undergirded by an identifiable, local membership, with clear qualifications and expectations for how they 
-    should love and serve one another and engage in God’s mission together. Each member is both called and equipped to serve the others 
-    (1 Cor. 12), with a diverse array of gifts and abilities coming together to form a cooperative whole.
+    description: `新約聖書で「エクレシア」という単語が使われる際、それは特定の場所に集められた特定のクリスチャンたちのことを指しています。
+    それはお互いをよく知り、人生を共有する人々の集団を意味しました。そして彼らは自身が、偉大な共同体の一部であること＜場所と時間を超えて一つとされる「普遍的な教会」であること＞をよく理解しそれを祝っていました。しかし、その偉大な共同体の一員である（という認識）は、どのように互いを愛し合い、互いに仕えるべきか、そしてどのように共に神の使命に取り組むかについての明確な必要条件と期待をもった、「一つの教会に属していること」によって強化されるのです。一人一人がそれぞろ異なる賜物や能力を用いて互いに仕え合い、ひとつの体として共に協力しあうように召されており、また備えられているのです。（第一コリント人への手紙12章）
     `,
     questions: [
         createQuestion(0, 
-            `How committed are the members of your church to regularly meeting with each other as a local church?
+            `あなたの教会員は、どれだけ地域教会として定期的に集まることに熱心ですか？
             `, 
-            `not neglecting to meet together, as is the habit of some, but encouraging one another, and all the more as you see the Day drawing near.
+            `「ある人たちの習慣に倣って自分たちの集まりをやめたりせず、むしろ励まし合いましょう。その日が近づいていることが分かっているのですから、ますます励もうではありませんか。」
             `, 
-            `Heb. 10:25`),   
+            `へブル人への手紙 10:25`),   
         createQuestion(1, 
-            `How committed are the members of your church to spurring each other to love and good works?
+            `あなたの教会員は、互いに愛と善行を促すことに熱心ですか？
             `, 
-            `And let us consider how to stir up one another to love and good works,
+            `「また、愛と善行を促すために、互いに注意を払おうではありませんか。」
             `, 
-            `Heb. 10:24`),  
+            `へブル人への手紙 10:24`),  
         createQuestion(2, 
-            `How committed are the members of your church to working together, equipping one another, and building the church up in love?
+            `あなたの教会員は、からだ全体のそれぞれの部分がその分に応じて働くことにより成長して、愛のうちに建てられるために熱心ですか？
             `, 
-            `15 Rather, speaking the truth in love, we are to grow up in every way into him who is the head, 
-            into Christ, from whom the whole body, joined and held together by every joint with which it is equipped, 
-            when each part is working properly, makes the body grow so that it builds itself up in love.
+            `「むしろ、愛をもって真理を語り、あらゆる点において、かしらであるキリストに向かって成長するのです。
+            キリストによって、からだ全体は、あらゆる節々を支えとして組み合わされ、つなぎ合わされ、それぞれの部分がその分に応じて働くことにより成長して、愛のうちに建てられることになります。」            
             `, 
-            `Eph. 4:15-16`),  
+            `エペソ人への手紙 4:15-16`),  
         createQuestion(3, 
-            `How committed are the members of your church to providing for the needs of others in the church?
+            `あなたの教会員は、教会内の兄弟姉妹の必要を満たし与えることにどのくらい熱心ですか？
             `, 
-            `If a brother or sister is poorly clothed and lacking in daily food, and one of you says to them, “Go in peace, be warmed and filled,” 
-            without giving them the things needed for the body, what good is that? So also faith by itself, if it does not have works, is dead.
+            `「兄弟か姉妹に着る物がなく、毎日の食べ物にも事欠いているようなときに、
+            あなたがたのうちのだれかが、その人たちに、『安心して行きなさい。温まりなさい。満腹になるまで食べなさい』と言っても、からだに必要な物を与えなければ、何の役に立つでしょう。
+            同じように、信仰も行いが伴わないなら、それだけでは死んだものです。」            
             `, 
-            `James 2:15-17`),  
+            `ヤコブの手紙 2:15-17`),  
         createQuestion(4, 
-            `How committed are the members of your church to being a unified church with each member, though having different roles and spiritual gifts, 
-            being a unique part of it?
+            `あなたの教会員は、一人一人がそれぞれ異なる役割と霊的賜物とをもったキリストのからだの一部であることを認識し、そのために献身していますか？
             `, 
-            `For the body does not consist of one member but of many. If the foot should say, “Because I am not a hand, I do not belong to the body,” 
-            that would not make it any less a part of the body. And if the ear should say, “Because I am not an eye, I do not belong to the body,” 
-            that would not make it any less a part of the body. If the whole body were an eye, where would be the sense of hearing? 
-            If the whole body were an ear, where would be the sense of smell? But as it is, God arranged the members in the body, each one of them, 
-            as he chose. If all were a single member, where would the body be? As it is, there are many parts, yet one body.
-
-            The eye cannot say to the hand, “I have no need of you,” nor again the head to the feet, “I have no need of you.” On the contrary, 
-            the parts of the body that seem to be weaker are indispensable, and on those parts of the body that we think less honorable we bestow 
-            the greater honor, and our unpresentable parts are treated with greater modesty, which our more presentable parts do not require. 
-            But God has so composed the body, giving greater honor to the part that lacked it, that there may be no division in the body, 
-            but that the members may have the same care for one another. If one member suffers, all suffer together; if one member is honored, all rejoice together.
-            
-            Now you are the body of Christ and individually members of it.
+            `「実際、からだはただ一つの部分からではなく、多くの部分から成っています。
+            たとえ足が「私は手ではないから、からだに属さない」と言ったとしても、それで、からだに属さなくなるわけではありません。
+            たとえ耳が「私は目ではないから、からだに属さない」と言ったとしても、それで、からだに属さなくなるわけではありません。
+            もし、からだ全体が目であったら、どこで聞くのでしょうか。もし、からだ全体が耳であったら、どこでにおいを嗅ぐのでしょうか。
+            しかし実際、神はみこころにしたがって、からだの中にそれぞれの部分を備えてくださいました。
+            もし全体がただ一つの部分だとしたら、からだはどこにあるのでしょうか。
+            しかし実際、部分は多くあり、からだは一つなのです。
+            目が手に向かって『あなたはいらない』と言うことはできないし、頭が足に向かって『あなたがたはいらない』と言うこともできません。
+            それどころか、からだの中でほかより弱く見える部分が、かえってなくてはならないのです。
+            また私たちは、からだの中で見栄えがほかより劣っていると思う部分を、見栄えをよくするものでおおいます。こうして、見苦しい部分はもっと良い格好になりますが、
+            格好の良い部分はその必要がありません。神は、劣ったところには、見栄えをよくするものを与えて、からだを組み合わせられました。
+            それは、からだの中に分裂がなく、各部分が互いのために、同じように配慮し合うためです。
+            一つの部分が苦しめば、すべての部分がともに苦しみ、一つの部分が尊ばれれば、すべての部分がともに喜ぶのです。
+            あなたがたはキリストのからだであって、一人ひとりはその部分です。」            
             `, 
-            `1 Cor. 12:14-27`),  
+            `コリント人への手紙 第一  12:14-27`),  
         createQuestion(5, 
-            `How committed are the members of your church to actively using the different spiritual gifts given to different memebers of the local church?
+            `あなたの教会員は、それぞれ霊的賜物を同じ地域教会の人々のために用いることに献身的ですか？
             `, 
-            `For as in one body we have many members, and the members do not all have the same function, so we, though many, are one body in Christ, 
-            and individually members one of another. Having gifts that differ according to the grace given to us, let us use them: if prophecy, 
-            in proportion to our faith; if service, in our serving; the one who teaches, in his teaching; the one who exhorts, in his exhortation; 
-            the one who contributes, in generosity; the one who leads, with zeal; the one who does acts of mercy, with cheerfulness.
+            `「一つのからだには多くの器官があり、しかも、すべての器官が同じ働きをしてはいないように、
+            大勢いる私たちも、キリストにあって一つのからだであり、一人ひとりは互いに器官なのです。
+            私たちは、与えられた恵みにしたがって、異なる賜物を持っているので、それが預言であれば、その信仰に応じて預言し、
+            奉仕であれば奉仕し、教える人であれば教え、
+            勧めをする人であれば勧め、分け与える人は惜しまずに分け与え、指導する人は熱心に指導し、慈善を行う人は喜んでそれを行いなさい。」            
             `, 
-            `Rom. 12:4-8`),  
+            `ローマ人への手紙 12:4-8`),  
         createQuestion(6, 
-            `Overall: How committed are the members of your church to your church and to each other?
+            `まとめ：あなたの教会員は、教会とメンバーお互いに対してどのくらい献身的ですか？
             `, 
             ``, 
             ``),  

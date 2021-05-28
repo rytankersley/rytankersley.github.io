@@ -1,4 +1,5 @@
 var categoryTotals = [];
+var langIndex = 0;
 
 function prepareCategories(data) {
     categoryTotals = [];
@@ -14,11 +15,14 @@ function prepareCategories(data) {
     }
 }
 
-function setText(langIndex) {
+function setText(languageIndex) {
+    langIndex = languageIndex;
     var data = getTextData(langIndex);
     if (categoryTotals.length === 0) {
         prepareCategories(data);
     }
+
+    console.log(categoryTotals);
 
     document.getElementById('navheader').innerHTML = data.navheader;
     document.getElementById('mainheader').innerHTML = data.mainheader;
@@ -82,7 +86,7 @@ function calculateCategoryTotal(category) {
 }
 
 function setCategoryNameValue(categoryIndex) {
-    var data = getTextData(0);
+    var data = getTextData(langIndex);
     var cat = data.categories[categoryIndex];
     
     fillCategoryWithRangeValues(cat);

@@ -1465,7 +1465,7 @@ var givingJP = {
     index: 2,
     name: "聖書的な献金",
     description: 
-    `***************************
+    `ヘルシーチャーチは、経済的に自立した、あるいは少なくともその方向へ向かっている教会です。しかしさらに重要なのは、第一コリント人への手紙16章1−4節にあるように、ヘルシーチャーチは、福音宣教の大義のもと教会活動の一環として「寛大に与える」という事です。その寛大さは、一人一人の経済状態には縛られないのです。福音によって人々の人生が変えられるのが見たい、という強い願いが、寛大に与えるという「生き方そのもの」となるべきなのです。
     `,
     questions: [{
         index: 0,
@@ -1549,71 +1549,46 @@ var givingJP = {
 var missionJP = {
     index: 3,
     name: "聖書的な宣教",
-    description: `Congregations must be actively engaged in making 
-    disciples locally and globally. Every member is a disciple maker 
-    in the world, and healthy churches are both organized and 
-    administered in such a way that members are motivated, trained, 
-    and equipped to make disciples in whatever context God places them. 
-    A healthy church, by its very definition, will create other 
-    healthy churches.
+    description: `クリスチャンは、地域そして全地球において、弟子を作ることに活発に関わることが命じられています。一人一人がこの世で弟子を作る使命を受けており、ヘルシーチャーチの役割は、一人一人の宣教への士気を鼓舞し、訓練し、主がその人をどこに置かれようとも対応できるように備えられるよう管理・運営することです。
     `,
     questions: [{
         index: 0,
         text: 
-        `To what extent would the Great Commission to 
-        "make disciples of all nations" define the focus of the 
-        activity of your church?
-        `,
+        `あなたの教会の活動は、どのくらい大宣教命令に重点が置かれていますか？`,
         verse: 
-        `Go therefore and make disciples of all nations, baptizing 
-        them in the name of the Father and of the Son and of the 
-        Holy Spirit, teaching them to observe all that I have 
-        commanded you. And behold, I am with you always, to the end 
-        of the age.
+        `『ですから、あなたがたは行って、あらゆる国の人々を弟子としなさい。父、子、聖霊の名において彼らにバプテスマを授け、
+        わたしがあなたがたに命じておいた、すべてのことを守るように教えなさい。見よ。わたしは世の終わりまで、いつもあなたがたとともにいます。』
         `,
-        verseRef: "Matt. 28:19-20"
+        verseRef: "マタイの福音書28:19−20"
     },{
         index: 1,
         text: 
-        `What percentage of your church's funds, time, energy and 
-        membership goes towards fulfilling the Great Commission?
-        `,
+        `あなたの教会の資金、時間、エネルギー、教会籍は、どれくらい大宣教命令を実行するために用いられていますか？`,
         verse: 
         ``,
         verseRef: ""
     },{
         index: 2,
         text: 
-        `To what extent does your church "become all things to all 
-        people" in the hopes of reaching diverse people groups?
-        `,
+        `あなたの教会は、多様なグループの人々にリーチアウトするためにどのくらい「すべての人に、すべてのものとなる」ことができていますか？`,
         verse: 
-        `To the weak I became weak, that I might win the weak. I have 
-        become all things to all people, that by all means I might 
-        save some. I do it all for the sake of the gospel, that 
-        I may share with them in its blessings.
+        `「弱い人たちには、弱い者になりました。弱い人たちを獲得するためです。すべての人に、すべてのものとなりました。何とかして、何人かでも救うためです。
+        私は福音のためにあらゆることをしています。私も福音の恵みをともに受ける者となるためです。」
         `,
-        verseRef: "1 Cor. 9:22-23"
+        verseRef: "コリント人への手紙 第一  9:22-23"
     },{
         index: 3,
         text: 
-        `To what extent is your church focused on doing the good 
-        works that God has called your church to do, by the power of 
-        the Holy Spirit, for the glory of His name?
-        `,
+        `あなたの教会は、御霊の御力により主の御名が崇められるため、主があなたの教会に召してくださった良い働きをすることに、どのくらい焦点を置いていますか？`,
         verse: 
-        `To this end we always pray for you, that our God may make you 
-        worthy of his calling and may fulfill every resolve for 
-        good and every work of faith by his power, so that the name of 
-        our Lord Jesus may be glorified in you, and you in him, 
-        according to the grace of our God and the Lord Jesus Christ.
+        `「こうしたことのため、私たちはいつも、あなたがたのために祈っています。どうか私たちの神が、あなたがたを召しにふさわしい者にし、また御力によって、善を求めるあらゆる願いと、信仰から出た働きを実現してくださいますように。
+        それは、私たちの神であり主であるイエス・キリストの恵みによって、私たちの主イエスの名があなたがたの間であがめられ、あなたがたも主にあって栄光を受けるためです。」
         `,
-        verseRef: "2 Thess. 1:11-12"
+        verseRef: "テサロニケ人への手紙 第二 1:11-12"
     },{
         index: 4,
         text: 
-        `How well can each member of your church communicate God's 
-        purpose for the mission of the church AND live by it?
+        `あなたの教会の一人一人は、神が教会に使命を与えられた目的についてどれくらい明確にはっきりと伝えていますか？また、どれくらいそれに基づいて歩んでいますか？
         `,
         verse: 
         ``,
@@ -1621,9 +1596,7 @@ var missionJP = {
     },{
         index: 5,
         text: 
-        `Overall: How much would your church be known as a 
-        "missional church"?
-        `,
+        `まとめ：あなたの教会はどれくらい「神の使命に生きる教会」として知られていますか？`,
         verse: 
         ``,
         verseRef: ""
@@ -1633,113 +1606,69 @@ var missionJP = {
 var evangelismJP = {
     index: 4,
     name: "聖書的な伝道",
-    description: `The word “church” comes from a Greek word that means 
-    “an assembly of called-out ones.” It denotes that before a 
-    church can ever actually gather, the people must first hear 
-    the call to do so. As Paul questioned in Romans 10:14–15, 
-    “How can they believe in the one of whom they have not 
-    heard? And how can they hear without someone preaching to 
-    them?” Churches are built through the fervent, faithful 
-    proclamation of Christ and him crucified. Therefore, it’s 
-    the responsibility of the local church to be a mouthpiece 
-    of Christ, calling all who would come to repentance and new 
-    life. But the new believer’s walk doesn’t end when they 
-    answer the call. Indeed, it has only just begun.
+    description: `教会」という言葉は、「呼び出された者たちの集会」という意味のギリシャ語から来ています。
+    教会が集まることができるよりも前に、まず人々が集まるようにという召しを聞くことから始まります。
+    ローマ人への手紙 10:14-15でパウロが言ったように、「聞いたことのない方を、どのようにして信じるのでしょうか。宣べ伝える人がいなければ、どのようにして聞くのでしょうか。」 
+    教会が建てられるのは、熱烈で強い信仰心によるキリストとその十字架の宣言を通してであります。それゆえ、キリストの代弁者であるのは地域教会の責任であり、悔い改めをし新しいいのちを得るであろう人々を呼ぶように召されているのです。しかし、新しいキリスト者の歩みはその救いの召しに応答しては終わらず、すべての始まりにしか過ぎないのです。
     `,
     questions: [{
         index: 0,
         text: 
-        `What percentage of the membership of your church shares 
-        the gospel on a regular basis?
-        `,
+        `あなたの教会では、教会員の何％が定期的に福音を述べ伝えていますか？`,
         verse: 
         ``,
         verseRef: ""
     },{
         index: 1,
         text: 
-        `What percentage of your church has been equipped to both 
-        understand and accurately communicate the gospel with anyone, 
-        anywhere and any time?`,
+        `あなたの教会では、教会員の何％が福音を正しく理解していて、いつでも、どこでも、誰にでも、的確に伝えることができるよう備えられていますか？`,
         verse: 
-        `to equip the saints for the work of ministry, 
-        for building up the body of Christ  /  Now 
-        those who were scattered because of the persecution that 
-        arose over Stephen traveled as far as Phoenicia and Cyprus 
-        and Antioch, speaking the word to no one except Jews. 
-        But there were some of them, men of Cyprus and Cyrene, who 
-        on coming to Antioch spoke to the Hellenists also, preaching 
-        the Lord Jesus. And the hand of the Lord was with them, 
-        and a great number who believed turned to the Lord.
+        `「それは、聖徒たちを整えて奉仕の働きをさせ、キリストのからだを建て上げるためです。」・　「さて、ステパノのことから起こった迫害により散らされた人々は、フェニキア、キプロス、アンティオキアまで進んで行ったが、ユダヤ人以外の人には、だれにもみことばを語らなかった。
+        ところが、彼らの中にキプロス人とクレネ人が何人かいて、アンティオキアに来ると、ギリシア語を話す人たちにも語りかけ、主イエスの福音を宣べ伝えた。
+        そして、主の御手が彼らとともにあったので、大勢の人が信じて主に立ち返った。」
         `,
-        verseRef: "Eph. 4:12, Acts 11:19-21"
+        verseRef: "エペソ人への手紙 4:12、使徒の働き 11:19-21"
     },{
         index: 2,
         text: 
-        `To what extent would the members of your church think of 
-        evangelism as "normal" and are ready to share?
+        `あなたの教会では、どのくらい教会員が伝道を当たり前にすべき事だと認識していて、すぐにでもシェアする準備ができていますか？
         `,
         verse: 
-        `and, as shoes for your feet, having put on the readiness 
-        given by the gospel of peace.
+        `「足には平和の福音の備えをはきなさい。」
         `,
-        verseRef: "Eph. 6:15"
+        verseRef: "エペソ人への手紙 6:15"
     },{
         index: 3,
         text: 
-        `To what extent are the members of your church passionate about gospel 
-        proclamation and striving side-by-side as 
-        one man for the gospel?
+        `あなたの教会のメンバーは、福音伝道と福音のために一致団結して励むことに、どのくらい熱的に取り組んでいますか？
         `,
         verse: 
-        `Only let your manner of life be worthy of the gospel of Christ, 
-        so that whether I come and see you or am absent, I may hear of 
-        you that you are standing firm in one spirit, with one mind 
-        striving side by side for the faith of the gospel.
-        `,
-        verseRef: "Phil. 1:27"
+        `「ただキリストの福音にふさわしく生活しなさい。そうすれば、私が行ってあなたがたに会うにしても、離れているにしても、あなたがたについて、こう聞くことができるでしょう。あなたがたは霊を一つにして堅く立ち、福音の信仰のために心を一つにしてともに戦っていて…」`,
+        verseRef: "ピリピ人への手紙 1:27"
     },{
         index: 4,
         text: 
-        `To what extent do the members of your church not only 
-        verbally share the gospel but also share their very lives 
-        and live a life worthy of it?
-        `,
+        `あなたの教会のメンバーは、言葉で福音を宣べ伝えるだけではなく、自身の人生を共有し、キリストの福音にふさわしく生活している、とどれくらい評価されますか？`,
         verse: 
-        `Only let your manner of life be worthy of the gospel of Christ, 
-        so that whether I come and see you or am absent, I may hear of 
-        you that you are standing firm in one spirit, with one mind 
-        striving side by side for the faith of the gospel. /  So, being affectionately desirous of you, 
-        we were ready to share with you not only the gospel of God 
-        but also our own selves, because you had become very dear to us.
+        `「ただキリストの福音にふさわしく生活しなさい。そうすれば、私が行ってあなたがたに会うにしても、離れているにしても、あなたがたについて、こう聞くことができるでしょう。あなたがたは霊を一つにして堅く立ち、福音の信仰のために心を一つにしてともに戦っていて…」・「あなたがたをいとおしく思い、神の福音だけではなく、自分自身のいのちまで、喜んであなたがたに与えたいと思っています。あなたがたが私たちの愛する者となったからです。」
         `,
-        verseRef: "Phil. 1:27, 1 Thess. 2:8"
+        verseRef: "ピリピ人への手紙 1:27、テサロニケ人への手紙 第一 2:8"
     },{
         index: 5,
         text: 
-        `What percentage of your church membership is willing to 
-        boldly share the gospel amidst persecution and suffering?
-        `,
+        `あなたの教会では、迫害や苦しみの最中でも大胆に福音を述べ伝えるであろう教会信徒が何％いますか？`,
         verse: 
-        `But though we had already suffered and 
-        been shamefully treated at Philippi, as you know, 
-        we had boldness in our God to declare to you the gospel 
-        of God in the midst of much conflict. For our appeal does not 
-        spring from error or impurity or any attempt to deceive, 
-        but just as we have been approved by God to be entrusted 
-        with the gospel, so we speak, not to please man, but to 
-        please God who tests our hearts.  / Therefore 
-        do not be ashamed of the testimony about our Lord, nor of me 
-        his prisoner, but share in suffering for the gospel by the 
-        power of God.
+        `「ですからあなたは、私たちの主を証しすることや、私が主の囚人であることを恥じてはいけません。むしろ、神の力によって、福音のために私と苦しみをともにしてください。」・
+
+        「それどころか、ご存じのように、私たちは先にピリピで苦しみにあい、辱めを受けていたのですが、私たちの神によって勇気づけられて、激しい苦闘のうちにも神の福音をあなたがたに語りました。
+        私たちの勧めは、誤りから出ているものでも、不純な心から出ているものでもなく、だましごとでもありません。
+        むしろ私たちは、神に認められて福音を委ねられた者ですから、それにふさわしく、人を喜ばせるのではなく、私たちの心をお調べになる神に喜んでいただこうとして、語っているのです。」
         `,
-        verseRef: "1 Thess. 2:2-4, 2 Tim.1:8"
+        verseRef: "テサロニケ人への手紙 第一 2:2-4、テモテへの手紙 第二 1:8"
     },{
         index: 6,
         text: 
-        `Overall: How much would your church be known as an 
-        "evangelistic church'?
-        `,
+        `まとめ：あなたの教会はどれくらい「伝道熱心な教会」として知られていますか？`,
         verse: 
         ``,
         verseRef: ""
@@ -1750,167 +1679,108 @@ var discipleshipJP = {
     index: 5,
     name: "聖書的な弟子化訓練",
     description: 
-    `According to Matthew 28:16–20, the command to 
-    “make disciples of all nations” is qualified by two activities: 
-    “baptizing them” and “teaching them to obey.” 
-    Once a believer has declared allegiance to Christ 
-    through baptism, it’s the responsibility of the local 
-    church to be the place where they can learn obedience 
-    to Christ’s commands. A healthy church is a group of people 
-    intentionally living out the timeless, universal truths 
-    of the gospel within the context of a finite, local community.
-    `,
+    `マタイの福音書28章16−20節をみると、『あらゆる国の人々を弟子としなさい』という命令は以下の２つの活動により必要なスキルを養うことができます。それは、「洗礼を授けること」と「従うことを教えること」です。信仰者がキリストへの忠誠を洗礼を受けることで示した後、その人をキリストの命令に従う者へと教え導くのは地域教会の責任になります。ヘルシーチャーチは、地域コミュニティという有限な世界の文脈の中で、時空を超えた万人共通の真理を生き抜く集団であります。`,
     questions: [{
         index: 0,
         text: 
-        `How intentional is your church in making disciples?
+        `あなたの教会では、どれだけ意図的に弟子訓練がなされていますか？
         `,
         verse: 
-        `Go therefore and make disciples of all nations, baptizing 
-        them in the name of the Father and of the Son and of the 
-        Holy Spirit.
-        `,
-        verseRef: "Matt. 28:19"
+        `『ですから、あなたがたは行って、あらゆる国の人々を弟子としなさい。父、子、聖霊の名において彼らにバプテスマを授け…』`,
+        verseRef: "マタイの福音書 28:19"
     },{
         index: 1,
         text: 
-        `To what extent do the members of your church obey God's 
-        commands and will?
+        `あなたの教会では、教会員がどれくらい神様のご命令と御心に従っていますか？
         `,
         verse: 
-        `teaching them to observe all that I have commanded you. 
-        And behold, I am with you always, to the end of the age.
+        `『わたしがあなたがたに命じておいた、すべてのことを守るように教えなさい。見よ。わたしは世の終わりまで、いつもあなたがたとともにいます。』
         `,
-        verseRef: "Matt. 28:20"
+        verseRef: "マタイの福音書 28:20"
     },{
         index: 2,
         text: 
-        `To what extent do the members of your church abide in 
-        God's word?
+        `あなたの教会では、教会員がどれくらい御言葉にとどまっていますか？
         `,
         verse: 
-        `So Jesus said to the Jews who had believed him, 
-        “If you abide in my word, you are truly my disciples
-        `,
-        verseRef: "Jn. 8:31"
+        `『イエスは、ご自分を信じたユダヤ人たちに言われた。「あなたがたは、わたしのことばにとどまるなら、本当にわたしの弟子です。』`,
+        verseRef: "ヨハネの福音書 8:31"
     },{
         index: 3,
         text: 
-        `To what extent do the members of your church abide in 
-        Christ?
+        `あなたの教会では、教会員がどれくらいキリストにとどまっていますか？
         `,
         verse: 
-        `I am the vine; you are the branches. Whoever abides in me and 
-        I in him, he it is that bears much fruit, for apart from me 
-        you can do nothing.
-        `,
+        `『わたしはぶどうの木、あなたがたは枝です。人がわたしにとどまり、わたしもその人にとどまっているなら、その人は多くの実を結びます。わたしを離れては、あなたがたは何もすることができないのです。』`,
         verseRef: "Jn. 15:5"
     },{
         index: 4,
         text: 
-        `To what extent do the members of your church seek to bear 
-        fruit to the glory of God?
+        `あなたの教会では、どのくらい主が栄光をお受けになるため、多くの実を結ぶことを教会員が求めていますか？
         `,
         verse: 
-        `By this my Father is glorified, that you bear much fruit 
-        and so prove to be my disciples.
-        `,
-        verseRef: "Jn. 15:8"
+        `『あなたがたが多くの実を結び、わたしの弟子となることによって、わたしの父は栄光をお受けになります。』`,
+        verseRef: "ヨハネの福音書 15:8"
     },{
         index: 5,
         text: 
-        `To what extent do the members of your church seek to 
-        know God?
-        `,
+        `あなたの教会では、どのくらい教会員が主を知ることを求めていますか？`,
         verse: 
-        `And this is eternal life, that they know you, the only 
-        true God, and Jesus Christ whom you have sent.
-        `,
-        verseRef: "Jn. 17:3"
+        `「永遠のいのちとは、唯一のまことの神であるあなたと、あなたが遣わされたイエス・キリストを知ることです。」`,
+        verseRef: "ヨハネの福音書 17:3"
     },{
         index: 6,
         text: 
-        `To what extent have the members of your church been equipped 
-        for the ministry of making disciples themselves, such as how to do personal discipleship or discipleship in small 
-        groups?
-        `,
+        `あなたの教会では、どのくらい教会員が自分で弟子を作るためにすでに備えられていますか？（例：個人的な弟子訓練やスモールグループにおける弟子化訓練など`,
         verse: 
-        `to equip the saints for the work of ministry, for building 
-        up the body of Christ,`,
-        verseRef: "Eph. 4:12"
+        `「それは、聖徒たちを整えて奉仕の働きをさせ、キリストのからだを建て上げるためです。」`,
+        verseRef: "エペソ人への手紙 4:12"
     },{
         index: 7,
         text: 
-        `To what extent have the members of your church been 
-        equipped for significant ministry within the church?
-        `,
+        `あなたの教会では、どのくらい教会員が教会内の重要なミニストリーのために備えられていますか？`,
         verse: 
-        `to equip the saints for the work of ministry, for building 
-        up the body of Christ,
-        `,
-        verseRef: "Eph. 4:12"
+        `「それは、聖徒たちを整えて奉仕の働きをさせ、キリストのからだを建て上げるためです。」`,
+        verseRef: "エペソ人への手紙 4:12"
     },{
         index: 8,
         text: 
-        `To what extent would the members of your church 
-        be described as "attaining mature manhood, the fullness 
-        of Christ"?
-        `,
+        `あなたの教会では、教会員がどのくらい「一人の成熟した大人となって、キリストの満ち満ちた身丈にまで達している」と言うことができますか？`,
         verse: 
-        `until we all attain to the unity of the 
-        faith and of the knowledge of the Son of God, to mature manhood, 
-        to the measure of the stature of the fullness of Christ
-        `,
-        verseRef: "Eph. 4:13"
+        `「私たちはみな、神の御子に対する信仰と知識において一つとなり、一人の成熟した大人となって、キリストの満ち満ちた身丈にまで達するのです。」`,
+        verseRef: "エペソ人への手紙 4:13"
     },{
         index: 9,
         text: 
-        `Rate how well your church's members are indwelt by God's 
-        word and have their thoughts fixed on the things of Him.
+        `教会員は、キリストのことばが、「あなたがたのうちに豊かに住むように」、また「キリストに心を留めるように」されていますか？ご評価ください。
         `,
         verse: 
-        `Finally, brothers, whatever is true, 
-        whatever is honorable, whatever is just, whatever is pure, 
-        whatever is lovely, whatever is commendable, if there is 
-        any excellence, if there is anything worthy of praise, 
-        think about these things. What you have learned and received 
-        and heard and seen in me—practice these things, and the God 
-        of peace will be with you.  /  Let the word 
-        of Christ dwell in you richly, teaching and admonishing one 
-        another in all wisdom, singing psalms and hymns and spiritual 
-        songs, with thankfulness in your hearts to God.
+        `最後に、兄弟たち。すべて真実なこと、すべて尊ぶべきこと、すべて正しいこと、すべて清いこと、すべて愛すべきこと、すべて評判の良いことに、また、何か徳とされることや称賛に値することがあれば、そのようなことに心を留めなさい。
+        あなたがたが私から学んだこと、受けたこと、聞いたこと、見たことを行いなさい。そうすれば、平和の神があなたがたとともにいてくださいます。・キリストのことばが、あなたがたのうちに豊かに住むようにしなさい。知恵を尽くして互いに教え、忠告し合い、詩と賛美と霊の歌により、感謝をもって心から神に向かって歌いなさい。
         `,
-        verseRef: "Phil. 4:8-9, Col. 3:16"
+        verseRef: "ピリピ人への手紙 4:8,9、コロサイ人への手紙 3:16"
     },{
         index: 10,
         text: 
-        `Rate how well your church's members seek the good of others above 
-        themselves.
+        `教会員は、自分の利益よりもまず他の人の利益を求めていますか？ご評価ください。
         `,
         verse: 
-        `Let no one seek his own good, but the good of his neighbor.
+        `だれでも、自分の利益を求めず、ほかの人の利益を求めなさい。
         `,
-        verseRef: "1 Cor. 10:24"
+        verseRef: "コリント人への手紙 第一  10:24"
     },{
         index: 11,
         text: 
-        `Rate how well your church's members have their hearts and 
-        minds renewed by Him.
-        `,
+        `教会員は、神様に自身の心と思いを変えていただいていますか？ご評価ください。`,
         verse: 
-        `I appeal to you therefore, brothers, by the mercies of God, 
-        to present your bodies as a living sacrifice, holy and 
-        acceptable to God, which is your spiritual worship. 
-        Do not be conformed to this world, but be transformed by 
-        the renewal of your mind, that by testing you may discern 
-        what is the will of God, what is good and acceptable and perfect.
+        `ですから、兄弟たち、私は神のあわれみによって、あなたがたに勧めます。あなたがたのからだを、神に喜ばれる、聖なる生きたささげ物として献げなさい。それこそ、あなたがたにふさわしい礼拝です。
+        この世と調子を合わせてはいけません。むしろ、心を新たにすることで、自分を変えていただきなさい。そうすれば、神のみこころは何か、すなわち、何が良いことで、神に喜ばれ、完全であるのかを見分けるようになります。
         `,
-        verseRef: "Rom. 12:1-2"
+        verseRef: "ローマ人への手紙 12:1-2"
     },{
         index: 12,
         text: 
-        `Overall: How much would your church be known as a 
-        "disciple-making church"?
+        `まとめ：あなたの教会はどれくらい「弟子化訓練に熱心な教会」として知られていますか？
         `,
         verse: 
         ``,
@@ -1922,112 +1792,75 @@ var teachingJP = {
     index: 6,
     name: "聖書的な教え・説教",
     description: 
-    `Faithful, biblical teaching is the means by which 
-    Jesus leads his church. Individual Bible study is essential, but 
-    it isn’t sufficient. Healthy churches regularly set aside time to 
-    listen to their pastors and teachers carefully interpret and apply 
-    the Word of God to every area of life. Sound, biblical 
-    interpretation requires much time, effort, study, and training, 
-    so church leaders need to be equipped accordingly. When healthy 
-    churches gather together, they come expecting to hear God speak 
-    in both the sermon and the service.
-    `,
+    `信仰深い聖書的な教えはイエス様が教会を導くために用いられる手段です。個人の聖書勉強は必須ですが、それだけでは不十分です。ヘルシーチャーチは、みことばを牧師や指導者から聞く時間を定期的に設け、慎重に聖書の解釈を学び、みことばを日常生活に適用します。健全な聖書的解釈には膨大な時間と労力、そして訓練が必要です。それゆえ、教会のリーダーたちはそれ相応にきちんと備えられている必要があります。ヘルシーチャーチが集まるにあたって彼らが期待するのは、説教と礼拝を通して神が語られることです。`,
     questions: [{
         index: 0,
         text: 
-        `What percentage of the preaching and teaching that 
-        takes place in your church focuses on God's word as 
-        opposed to one's own experiences or what someone says 
-        about the Bible?
-        `,
+        `あなたの教会の説教や教えは、個人的な経験や聖書に関して誰かが言ったことの引用でもなく、何パーセントくらいの焦点が聖書、「みことば」に当てられていますか？`,
         verse: 
-        `preach the word; be ready in season and out 
-        of season; reprove, rebuke, and exhort, with complete patience 
-        and teaching.  /  But Paul and Barnabas 
-        remained in Antioch, teaching and preaching the word of 
-        the Lord, with many others also.
-        `,
-        verseRef: "2 Tim. 4:2, i.e. Acts 15:35"
+        `「みことばを宣べ伝えなさい。時が良くても悪くてもしっかりやりなさい。忍耐の限りを尽くし、絶えず教えながら、責め、戒め、また勧めなさい。」・「パウロとバルナバはアンティオキアにとどまって、ほかの多くの人々とともに、主のことばを教え、福音を宣べ伝えた。」`,
+        verseRef: "テモテへの手紙 第二 4:2、使徒の働き 15:35"
     },{
         index: 1,
         text: 
-        `How committed are the members of your church to the public 
-        and corporate proclamation of Scripture?
+        `あなたの教会のメンバーは、どれくらい公に集まって、みことばを宣言することに献身していますか？
         `,
         verse: 
-        `Until I come, devote yourself to the public reading of 
-        Scripture, to exhortation, to teaching.
+        `「私が行くまで、聖書の朗読と勧めと教えに専念しなさい。」
         `,
-        verseRef: "1 Tim. 4:13"
+        verseRef: "テモテへの手紙 第一 4:13"
     },{
         index: 2,
         text: 
-        `How committed and equipped are the members of your church 
-        to the individual meditation upon, memorization of and/or 
-        the study of Scripture?
+        `あなたの教会員は、個人的にみことばを思い巡らすこと、暗記すること、また聖書勉強にどのくらい献身していますか？また、備えられていますか？
         `,
         verse: 
-        `I have stored up your word in my heart,
-        that I might not sin against you.
-    Blessed are you, O Lord;
-        teach me your statutes!
-    With my lips I declare
-        all the rules of your mouth.
-    In the way of your testimonies I delight
-        as much as in all riches.
-    I will meditate on your precepts
-        and fix my eyes on your ways.
-    I will delight in your statutes;
-        I will not forget your word.
-    `,
-        verseRef: "Ps. 119:11-16"
+        `「私はあなたのみことばを心に蓄えます。
+        　あなたの前に罪ある者とならないために。
+        　主よ　あなたはほむべき方。
+        　あなたのおきてを私に教えてください。
+        　私はこの唇で語ります。
+        　あなたの御口のさばきすべてを。
+        　私は　あなたのさとしの道を
+        　どんな宝よりも楽しんでいます。
+        　私は　あなたの戒めに思いを潜め
+        　あなたの道に私の目を留めます。
+        　私は　あなたのおきてを喜びとし
+        　あなたのみことばを忘れません。」
+        `,
+        verseRef: "詩篇 119:11-16"
     },{
         index: 3,
         text: 
-        `How often are the Scriptures used for training and equipping 
-        the people of God for every good work?
+        `あなたの教会では、すべての良い働きのためにメンバーを整えるために、どれくらい頻繁にみことばが用いられますか？
         `,
         verse: 
-        `All Scripture is breathed out by God and profitable for 
-        teaching, for reproof, for correction, and for training in 
-        righteousness, that the man of God may be complete, 
-        equipped for every good work.
+        `「聖書はすべて神の霊感によるもので、教えと戒めと矯正と義の訓練のために有益です。
+        神の人がすべての良い働きにふさわしく、十分に整えられた者となるためです。」        
         `,
-        verseRef: "2 Tim. 3:16-17"
+        verseRef: "テモテへの手紙 第二 3:16-17"
     },{
         index: 4,
         text: 
-        `To what extent are the Scriptures accepted as authoritative within your 
-        church?
-        `,
+        `あなたの教会では、みことばがどれくらい「権威のあるもの」として扱われていますか？`,
         verse: 
-        `All Scripture is breathed out by God and profitable for 
-        teaching, for reproof, for correction, and for training in 
-        righteousness, that the man of God may be complete, 
-        equipped for every good work. /  For the word of 
-        God is living and active, sharper than any two-edged sword, 
-        piercing to the division of soul and of spirit, of joints 
-        and of marrow, and discerning the thoughts and intentions 
-        of the heart.
+        `「聖書はすべて神の霊感によるもので、教えと戒めと矯正と義の訓練のために有益です。
+        神の人がすべての良い働きにふさわしく、十分に整えられた者となるためです。」・「神のことばは生きていて、力があり、両刃の剣よりも鋭く、たましいと霊、関節と骨髄を分けるまでに刺し貫き、心の思いやはかりごとを見分けることができます。」
         `,
-        verseRef: "2 Tim. 3:16-17, Heb. 4:12"
+        verseRef: "テモテへの手紙 第二 3:16,17, Heb. 4:12"
     },{
         index: 5,
         text: 
-        `How intentional is your church in growing the next generation 
-        of Bible teachers and preachers?
+        `あなたの教会では、どのくらい次世代の聖書を教える人材や説教者を育成することに意図的に取り組んでいますか？
         `,
         verse: 
-        `and what you have heard from me in the presence of many 
-        witnesses entrust to faithful men, who will be able to teach 
-        others also.
+        `「多くの証人たちの前で私から聞いたことを、ほかの人にも教える力のある信頼できる人たちに委ねなさい。」
         `,
-        verseRef: "2 Tim. 2:2"
+        verseRef: "テモテへの手紙 第二 2:2"
     },{
         index: 6,
         text: 
-        `How biblically "literate" is the average member of your 
-        church?
+        `あなたの教会全体を平均的に見て、どのくらい聖書的に「識字率がある」といえますか？
         `,
         verse: 
         ``,
@@ -2035,8 +1868,7 @@ var teachingJP = {
     },{
         index: 7,
         text: 
-        `Overall: How much would your church be known as a 
-        "Bible teaching, Bible believing church"?
+        `Overall: How much would your church be known as a "Bible teaching, Bible believing church"?
         `,
         verse: 
         ``,
@@ -2048,74 +1880,41 @@ var leadershipJP = {
     index: 7,
     name: "聖書的なリーダーシップ",
     description: 
-    `One of the many gifts of the Holy Spirit is that of leadership. 
-    No church can experience health without the leadership of the 
-    pastors that Paul described in passages like 1 Timothy 3 and 
-    Titus 1. Such leaders are never meant to be tyrants but rather 
-    shepherds, laboring “to equip the saints for the work of ministry, 
-    for building up the body of Christ” (Eph. 4:12). Church members who
-    are gifted and called to serve as leaders have the responsibility 
-    of equipping their fellow members with what they need in order 
-    to be who Christ called them to be. The calling of a pastor or 
-    elder is a challenging one, but that doesn’t mean the list of 
-    competencies is unattainable.
+    `数多くある、聖霊による賜物の一つは、リーダシップです。教会が健全でいるためには、第一テモテへの手紙3章とテトスへの手紙1章でパウロが説明したような「リーダーシップの資質」が牧師にあることが必要不可欠です。
+    そのようなリーダーは、決して暴君のようではなく、「聖徒たちを整えて奉仕の働きをさせ、キリストのからだを建て上げる（エペソ人への手紙 4:12）」ために労苦する「羊飼い」であるべきです。賜物が与えられリーダーとしての召しを受けた教会員は、ほかのキリスト者をキリストの召しに従うべく備える責任があります。牧師や長老の召命はチャレンジが多いですが、適任者としての項目が一生到達不可能というわけではありません。    
     `,
     questions: [{
         index: 0,
         text: 
-        `Pastors/elders:  When analyzing the biblical qualifications 
-        for elders in 1 Tim. 3:1-7 and Titus 1:5-16, to what 
-        extent does the leadership of your church adhere to these aspects? 
-        `,
+        `＜牧師と長老について＞あなたの教会のリーダーシップを、 第一テモテへの手紙とテトスへの手紙に記された「長老としての聖書的条件」に照らし合わせたとき、どのくらい当てはまっていますか？`,
         verse: 
-        `The saying is trustworthy: If anyone 
-        aspires to the office of overseer, he desires a noble task. 
-        Therefore an overseer must be above reproach, the husband 
-        of one wife, sober-minded, self-controlled, respectable, 
-        hospitable, able to teach, not a drunkard, not violent but 
-        gentle, not quarrelsome, not a lover of money. He must 
-        manage his own household well, with all dignity keeping 
-        his children submissive, for if someone does not 
-        know how to manage his own household, how will he care 
-        for God's church? He must not be a recent convert, or 
-        he may become puffed up with conceit and fall into the 
-        condemnation of the devil. Moreover, he must be well 
-        thought of by outsiders, so that he may not fall into 
-        disgrace, into a snare of the devil.  /  This is why I left you in Crete, so that you might put what 
-        remained into order, and appoint elders in every town 
-        as I directed you— if anyone is above reproach, the 
-        husband of one wife, and his children are believers and not 
-        open to the charge of debauchery or insubordination. For an 
-        overseer, as God's steward, must be above reproach. He must 
-        not be arrogant or quick-tempered or a drunkard or violent or 
-        greedy for gain, but hospitable, a lover of good, 
-        self-controlled, upright, holy, and disciplined. He must hold 
-        firm to the trustworthy word as taught, so that he may be 
-        able to give instruction in sound doctrine and also to rebuke 
-        those who contradict it. For there are many who are 
-        insubordinate, empty talkers and deceivers, especially 
-        those of the circumcision party. They must be 
-        silenced, since they are upsetting whole families by 
-        teaching for shameful gain what they ought not to teach. 
-        One of the Cretans, a prophet of their own, said, 
-        “Cretans are always liars, evil beasts, lazy gluttons.” 
-        This testimony is true. Therefore rebuke them sharply, 
-        that they may be sound in the faith, not devoting themselves 
-        to Jewish myths and the commands of people who turn away 
-        from the truth. 15 To the pure, all things are pure, but 
-        to the defiled and unbelieving, nothing is pure; but 
-        both their minds and their consciences are defiled. 
-        They profess to know God, but they deny him by their works. 
-        They are detestable, disobedient, unfit for any good work.
+        `次のことばは真実です。『もしだれかが監督の職に就きたいと思うなら、それは立派な働きを求めることである。』
+        ですから監督は、非難されるところがなく、一人の妻の夫であり、自分を制し、慎み深く、礼儀正しく、よくもてなし、教える能力があり、
+        酒飲みでなく、乱暴でなく、柔和で、争わず、金銭に無欲で、
+        自分の家庭をよく治め、十分な威厳をもって子どもを従わせている人でなければなりません。
+        自分自身の家庭を治めることを知らない人が、どうして神の教会を世話することができるでしょうか。
+        また、信者になったばかりの人であってはいけません。高慢になって、悪魔と同じさばきを受けることにならないようにするためです。
+        また、教会の外の人々にも評判の良い人でなければなりません。嘲られて、悪魔の罠に陥らないようにするためです。」・「私があなたをクレタに残したのは、残っている仕事の整理をし、私が命じたとおりに町ごとに長老たちを任命するためでした。
+        長老は、非難されるところがなく、一人の妻の夫であり、子どもたちも信者で、放蕩を責められたり、反抗的であったりしないことが条件です。
+        監督は神の家を管理する者として、非難されるところのない者であるべきです。わがままでなく、短気でなく、酒飲みでなく、乱暴でなく、不正な利を求めず、
+        むしろ、人をよくもてなし、善を愛し、慎み深く、正しく、敬虔で、自制心があり、
+        教えにかなった信頼すべきみことばを、しっかりと守っていなければなりません。健全な教えをもって励ましたり、反対する人たちを戒めたりすることができるようになるためです。
+        　実は、反抗的な者、無益な話をする者、人を惑わす者が多くいます。特に、割礼を受けている人々の中に多くいます。
+        そのような者たちの口は封じなければなりません。彼らは、恥ずべき利益を得るために、教えてはならないことを教え、いくつかの家庭をことごとく破壊しています。
+        クレタ人のうちの一人、彼ら自身の預言者が言いました。
+        　　『クレタ人はいつも噓つき、
+        　　悪い獣、
+        　　怠け者の大食漢。』
+        この証言は本当です。ですから、彼らを厳しく戒めて、その信仰を健全にし、
+        ユダヤ人の作り話や、真理に背を向けている人たちの戒めに、心を奪われないようにさせなさい。
+        きよい人たちには、すべてのものがきよいのです。しかし、汚れた不信仰な人たちには、何一つきよいものはなく、その知性も良心も汚れています。
+        彼らは、神を知っていると公言しますが、行いでは否定しています。彼らは忌まわしく、不従順で、どんな良いわざにも不適格です。」        
         `,
-        verseRef: "1 Tim. 3:1-7, Titus 1:5-16"
+        verseRef: "テモテへの手紙 第一 3:1-7, テトスへの手紙 1:5-16"
     },{
         index: 1,
         text: 
-        `Deacons:  When analyzing the biblical qualifications for 
-        deacons in 1 Tim. 3:8-13, to what extent does the leadership 
-        of your church adhere to these aspects? 
-        `,
+        `＜執事について＞ 第一テモテへの手紙3章8−13節に記された「執事としての聖書的条件」は、どのくらい当てはまっていますか？`,
         verse: 
         `Deacons likewise must be dignified, not double-tongued, not 
         addicted to much wine, not greedy for dishonest gain. They 
@@ -2133,8 +1932,7 @@ var leadershipJP = {
     },{
         index: 2,
         text: 
-        `To what extent does your church promote a plurality of 
-        leadership?
+        `あなたの教会では、複数の長老を地域教会の指導者に任命することを推奨していますか？
         `,
         verse: 
         `And he gave the apostles, the prophets, the evangelists, 
@@ -2144,8 +1942,7 @@ var leadershipJP = {
     },{
         index: 3,
         text: 
-        `How intentional is your church in working to raise up and 
-        mentor the next generation of leaders in the church?
+        `あなたの教会は、教会内で次世代のリーダーを育て、導くことをどれくらい意図的に取り組んでいますか？
         `,
         verse: 
         ``,
@@ -2153,9 +1950,7 @@ var leadershipJP = {
     },{
         index: 4,
         text: 
-        `To what extent do the leaders of the church seek to lead 
-        according to God's will and the members of the church submit 
-        to their authority?
+        `あなたの教会のリーダーたちは、御心に従ってどれくらい積極的にリードしていますか？また、教会員はどれくらいその権威に従っていますか？
         `,
         verse: 
         `Obey your leaders and submit to them, for they are keeping 
@@ -2167,9 +1962,7 @@ var leadershipJP = {
     },{
         index: 5,
         text: 
-        `To what extent do the leaders of the church seek to protect 
-        the church from threats both from without and from within the 
-        church?
+        `あなたの教会のリーダーたちは、どれくらい率先的に教会内外の脅威から教会を守るために取り組んでいますか？
         `,
         verse: 
         `Pay careful attention to yourselves and to all the flock, 
@@ -2188,10 +1981,7 @@ var leadershipJP = {
     },{
         index: 6,
         text: 
-        `To what extent do the leaders of the church seek to teach 
-        from God's word for the purpose of building everyone up and 
-        equipping them for every good work?
-        `,
+        `あなたの教会のリーダーたちは、教会を建てあげるため、良い働きに備えるために、どれくらい積極的に聖書に基づいて教えることをしていますか？`,
         verse: 
         `All Scripture is breathed out by God and profitable for 
         teaching, for reproof, for correction, and for training in 
@@ -2202,9 +1992,7 @@ var leadershipJP = {
     },{
         index: 7,
         text: 
-        `To what extent do the leaders of the church actively seek 
-        to equip the membership of the church to do significant 
-        ministry in order to build up the church?
+        `あなたの教会のリーダーたちは、教会をたてあげることを目的として、一人一人を教会の重要なミニストリーに備えようとどれくらい積極的に働いてますか？
         `,
         verse: 
         `to equip the saints for the work of ministry, for building 
@@ -2214,9 +2002,7 @@ var leadershipJP = {
     },{
         index: 8,
         text: 
-        `Overall: To what extent is the leadership of your church 
-        gifted to lead well and known as healthy and biblical?
-        `,
+        `まとめ：あなたの教会のリーダーシップは、効果的に導く賜物がありますか？そして、どれくらい健全で聖書的なリーダーシップをもった教会として知られていますか？`,
         verse: 
         ``,
         verseRef: ""
@@ -2226,17 +2012,11 @@ var leadershipJP = {
 var disciplineJP = {
     index: 8,
     name: "聖書的なアカウンタビリティと霊的訓練",
-    description: `Just as we need fellowship to spur us on to 
-    obedience, we need accountability to call us back from sin. 
-    Healthy churches must be places where the young in faith can be 
-    lovingly enlightened and where the disobedient can be gently 
-    rebuked in a manner consistent with the attitude and the process 
-    described by Christ in Matthew 18:15–20.
-    `,
+    description: `まさにキリストへの従順へと前進させるために交わりが必要なように、ヘルシーチャーチとは若い信仰者が愛の中で悟りを得る場所であり、マタイ18章15−20節にあるイエス・キリストの模範（態度と方法）に従い、若い信仰者の不従順さをも愛をもって優しく叱ってくれる場所でなければなりません。`,
     questions: [{
         index: 0,
         text: 
-        `How well does your church do at mutual accountability for obeying God's commands and will?
+        `あなたの教会では、主の命令と御心をに従うため、どれくらい相互的なアカウンタビリティーがうまく機能していますか？
         `,
         verse: 
         ``,
@@ -2244,7 +2024,7 @@ var disciplineJP = {
     },{
         index: 1,
         text: 
-        `How well does your church do at church discipline?
+        `あなたの教会は、どれくらい教会全体の霊的訓練が上手くいっていますか？
         `,
         verse: 
         `"It is actually reported that there is sexual immorality among you, and of a kind that is not tolerated even among pagans, for a man has his father's wife. And you are arrogant! Ought you not rather to mourn? Let him who has done this be removed from among you.
@@ -2267,7 +2047,7 @@ var disciplineJP = {
     },{
         index: 2,
         text: 
-        `How well do the members of your church practice the conflict resolution process that Jesus outlined in Matthew 18:15-17?
+        `あなたの教会員は、マタイ18章15−17節でイエス様が示された関係修復のためのプロセスにきちんと従っていますか？
         `,
         verse: 
         `“If your brother sins against you, go and tell him his fault, between you and him alone. If he listens to you, you have gained your brother. 
@@ -2281,7 +2061,7 @@ var disciplineJP = {
     },{
         index: 3,
         text: 
-        `How well does your church do at dealing with accusations against an elder as described in 1 Tim. 5:19? 
+        `あなたの教会では、長老に対する訴えが第一テモテへの手紙5章19節に従って行われていますか？
         `,
         verse: 
         `Do not admit a charge against an elder except on the evidence of two or three witnesses.
@@ -2290,7 +2070,7 @@ var disciplineJP = {
     },{
         index: 4,
         text: 
-        `How effective is your church at judging members of the church in non-disputable matters?
+        `あなたの教会は、教会員の明白な罪をさばく際に、どれだけ良い結果を生み出すような対処をしていますか？
         `,
         verse: 
         `I wrote to you in my letter not to associate with sexually immoral people— 
@@ -2326,7 +2106,7 @@ var disciplineJP = {
     },{
         index: 5,
         text: 
-        `Overall: To what extent are your church's accountability and discipline practices healthy and biblical?
+        `まとめ：あなたの教会のアカウンタビリティーと霊的訓練の慣習は、どれくらい健全、且つ聖書的だといえますか？
         `,
         verse: 
         ``,
@@ -2337,129 +2117,127 @@ var disciplineJP = {
 var fellowshipJP = {
     index: 9,
     name: "聖書的な交わり",
-    description: `Fellowship described in the Bible encapsulates all its “one anothers:” love, serve, care, teach, serve, admonish, exalt, build up, and 
-    bear with one another. Biblical fellowship is about sharing our lives with fellow church members, allowing the simplest and the deepest aspects of 
-    our days to become entwined. No one is intended to live the Christian life in isolation, and the lone Christian is just as likely to wither in 
-    loneliness as they are to stumble into disobedience.
+    description: `聖書は、交わりにみられる「互いに」の意味を端的に要約しています。それは互いに愛し合い、仕え合い、思いやり、教え合い、仕え合い、忠告し合い、高め合い、建て上げ、忍び合うことです。聖書的な交わりとは、些細な日常の出来事から人生の最も深いレベルの話まで密接に関わり、教会員同士が人生を分かち合うことです。誰もキリストの弟子が独りで孤独に生きるようには設計されていません。孤立したクリスチャンは、躓いてしまい不従順に陥り、孤独のうちに萎れるのが目に見えているからです。
     `,
     questions: [
         createQuestion(0, 
-            `To what extent are your church members loving one another?
+            `あなたの教会では、どのくらい互いに愛をもって接していますか？
             `, 
             `A new commandment I give to you, that you love one another: just as I have loved you, you also are to love one another.
             `, 
             `John 13:34`),
         createQuestion(1, 
-            `To what extent are your church members at peace with one another?
+            `あなたの教会では、どのくらい互いに平和を保てていますか？
             `, 
             `and to esteem them very highly in love because of their work. Be at peace among yourselves.
             `, 
             `1 Thess. 5:13`),
         createQuestion(2, 
-            `To what extent are your church members humble towards one another?
+            `あなたの教会では、どのくらい互いに謙って接することができていますか？
             `, 
             `Likewise, you who are younger, be subject to the elders. Clothe yourselves, all of you, with humility toward one another, for 
             "God opposes the proud but gives grace to the humble."
             `, 
             `1 Pet. 5:5`),
         createQuestion(3, 
-            `To what extent are your church members honoring one another?
+            `あなたの教会では、どのくらいお互いを敬いながら接することができていますか？
             `, 
             `Love one another with brotherly affection. Outdo one another in showing honor.
             `, 
             `Rom. 12:10`),
         createQuestion(4, 
-            `To what extent are your church members kind towards one another?
+            `あなたの教会では、どのくらい互いに親切に接することができていますか？
             `, 
             `Be kind to one another, tenderhearted, forgiving one another, as God in Christ forgave you.
             `, 
             `Eph. 4:32`),
         createQuestion(5, 
-            `To what extent are your church members maintaining unity?`, 
+            `あなたの教会では、どのくらい一致を保てていますか？
+            `, 
             `eager to maintain the unity of the Spirit in the bond of peace.
             `, 
             `Eph. 4:3`),
         createQuestion(6, 
-            `To what extent are your church members not provoking one another?
+            `あなたの教会では、どのくらいお互いを挑発することを避けていますか？
             `, 
             `Let us not become conceited, provoking one another, envying one another.
             `, 
             `Gal. 5:26`),
         createQuestion(7, 
-            `To what extent are your church members not being envious of one another?
+            `あなたの教会では、どのくらい互いに嫉み・嫉みを持つことを避けていますか？
             `, 
             `Let us not become conceited, provoking one another, envying one another.
             `, 
             `Gal. 5:26`),
         createQuestion(8, 
-            `To what extent are your church members not judging one another on disputable matters?
+            `あなたの教会では、簡単に白黒付けられないようなことで裁き合うことをどのくらい避けていますか？
             `, 
             `Therefore let us not pass judgment on one another any longer, but rather decide never to put a stumbling block or hindrance in the way of a brother.
             `, 
             `Rom. 14:13`),
         createQuestion(9, 
-            `To what extent are your church members encouraging one another?
+            `あなたの教会では、どのくらい互いに励まし合っていますか？
             `, 
             `Therefore encourage one another and build one another up, just as you are doing.
             `, 
             `1 Thess. 5:11`),
         createQuestion(10, 
-            `To what extent are your church members building each other up?
+            `あなたの教会では、どのくらい互いに建てあげることをしていますか？
             `, 
             `Therefore encourage one another and build one another up, just as you are doing.
             `, 
             `1 Thess. 5:11`),
         createQuestion(11, 
-            `To what extent are your church members serving one another?
+            `あなたの教会では、どのくらい互いに仕えていますか？
             `, 
             `For you were called to freedom, brothers. Only do not use your freedom as an opportunity for the flesh, but through love serve one another.
             `, 
             `Gal. 5:13`),
         createQuestion(12, 
-            `To what extent are your church members bearing each other's burdens?
+            `あなたの教会では、どのくらい互いの重荷を負い合っていますか？
             `, 
-            `Bear one another's burdens, and so fulfill the law of Christ.
+            `「互いの重荷を負い合いなさい。そうすれば、キリストの律法を成就することになります。」
             `, 
-            `Gal. 6:2`),
+            `ガラテヤ人への手紙6章2節`),
         createQuestion(13, 
-            `To what extent are your church members forgiving each other?
+            `あなたの教会では、どのくらい互いに赦しあっていますか？
             `, 
             `bearing with one another and, if one has a complaint against another, forgiving each other; as the Lord has forgiven you, so you also must forgive.
             `, 
             `Col. 3:13`),
         createQuestion(14, 
-            `To what extent are your church members submitting to one another?
+            `あなたの教会では、どのくらい互いに従い合っていますか？
             `, 
-            `submitting to one another out of reverence for Christ.
+            `「キリストを恐れて、互いに従い合いなさい。」
             `, 
-            `Eph. 5:21`),
+            `エペソ5章21節`),
         createQuestion(15, 
-            `To what extent are your church members doing good to each other?
+            `あなたの教会では、どのくらい互いに善を行なっていますか？
             `, 
             `So then, as we have opportunity, let us do good to everyone, and especially to those who are of the household of faith.
             `, 
             `Gal. 6:10`),
         createQuestion(16, 
-            `To what extent are your church members having fellowship with each other?
+            `あなたの教会では、どのくらい互いに交わりを持っていますか？
             `, 
             `But if we walk in the light, as he is in the light, we have fellowship with one another, and the blood of Jesus his Son cleanses us from all sin.
             `, 
             `1 John 1:7`),
         createQuestion(17, 
-            `To what extent are your church members teaching and admonishing each other?
+            `あなたの教会では、どのくらい互いに教え合い、忠告し合っていますか？
             `, 
             `Let the word of Christ dwell in you richly, teaching and admonishing one another in all wisdom, singing psalms and hymns and spiritual songs, 
             with thankfulness in your hearts to God.
             `, 
             `Col. 3:16`),
         createQuestion(18, 
-            `To what extent are your church members caring for one another?
+            `あなたの教会では、どのくらい互いに配慮し合っていますか？
             `, 
             `that there may be no division in the body, but that the members may have the same care for one another.
             `, 
             `1 Cor. 12:25`),
         createQuestion(19, 
-            `To what extent are your church members using biblical speech that builds each other up and doesn't tear each other down?
+            `あなたの教会では、どのくらい互いに聖書的な話し方（相手の徳を高めること・相手をけなさないこと）をしていますか？
             `, 
             `Rather, speaking the truth in love, we are to grow up in every way into him who is the head, into Christ,  /  Let 
             no corrupting talk come out of your mouths, but only such as is good for building up, as fits the occasion, that 
@@ -2468,14 +2246,13 @@ var fellowshipJP = {
             `, 
             `Eph. 4:15, 29, Jms 4:11`),
         createQuestion(20, 
-            `To what extent are your church members not biting and devouring one another?
+            `あなたの教会では、どのくらいかみつき合ったり、食い合ったりすることを避けていますか？
             `, 
             `But if you bite and devour one another, watch out that you are not consumed by one another.
             `, 
             `Gal. 5:15`),
         createQuestion(21, 
-            `Overall: If "outsiders" were to see the inter-personal relationships within your church, how would they rate the overall health of the fellowship 
-            of your church? 
+            `まとめ：もし外部者が教会内の人間関係を観察したとしたら、あなたの教会の総合的な「交わりの健康状態」をどう評価するでしょうか？
             `, 
             ``, 
             ``),
@@ -2559,14 +2336,11 @@ var membershipJP = {
 var ordinanceJP = {
     index: 11,
     name: "聖書的聖礼典",
-    description: `Healthy churches regularly observe believer’s baptism and the Lord’s Supper as a part of their worship services. 
-    Both are designed to declare and affirm our commitment to Christ and his body. Some churches share the Lord’s Supper each 
-    week, and others share it each month. Some churches have baptistries, others have bathtubs. There is freedom of expression as 
-    long as they are practiced in accordance with Scripture and within the context of biblical worship.
+    description: `ヘルシーチャーチはたいてい、洗礼と聖餐式を礼拝の一部だと捉えます。この二つは、キリストとキリストのからだへの献身を宣誓するためにデザインされています。ある教会では聖餐式を毎週行い、ある教会では月に一回行います。バプテストリー(浸礼槽)がある教会もあれば、浴槽で行う教会もあります。聖書に基づいて、そして聖書的な礼拝の文脈の中であれば、ある程度の表現の自由があります。
     `,
     questions: [
         createQuestion(0, 
-            `Baptism: How well does your church do at practicing post-faith believers baptism (not infant baptism)?
+            `【洗礼】あなたの教会は信仰告白した人の洗礼を聖書的に行なっていますか？（幼児洗礼を除く）
             `,
             `We were buried therefore with him by baptism into death, in order that, just as Christ was raised from the dead by the 
             glory of the Father, we too might walk in newness of life.  /  And Peter said to them, “Repent and be baptized every one 
@@ -2581,14 +2355,14 @@ var ordinanceJP = {
             `,
             `Rom. 6:4, i.e. Acts 2:38-41, 8:12, 36-38, etc.`),
         createQuestion(1, 
-            `Baptism: How well does your church do at practicing baptism by submersion as Jesus did?
+            `【洗礼】あなたの教会はイエス様がされたように、水に浸ることによって洗礼を授けていますか？
             `,
             `And when Jesus was baptized, immediately he went up from the water, and behold, the heavens were opened to him, and he saw the Spirit of 
             God descending like a dove and coming to rest on him;
             `,
             `Matt. 3:16`),
         createQuestion(2, 
-            `Lord's Supper: How well does your church do at regularly practicing the Lord's Supper as outlined in 1 Cor. 11:17-30?
+            `【聖餐式】あなたの教会は、第一コリント人への手紙11章17−30節に従って、聖餐式を定期的にもっていますか？
             `,
             `But in the following instructions I do not commend you, because when you come together it is not for the better but for the worse. 
             For, in the first place, when you come together as a church, I hear that there are divisions among you. And I believe it in part, 
@@ -2610,7 +2384,7 @@ var ordinanceJP = {
             `,
             `1 Cor. 11:17-30`),
         createQuestion(3, 
-            `Overall: How well does your church do at practicing these two ordinances? 
+            `まとめ：あなたの教会は、洗礼式と聖餐式をどれくらい聖書的に行なっていますか？
             `,
             ``,
             ``),
@@ -2634,8 +2408,8 @@ function getTextData(langIndex) {
         };
 
     var japanese = {
-        navheader: "健康的な教会",
-        mainheader: "健康的な教会",
+        navheader: "ヘルシーチャーチ",
+        mainheader: "ヘルシーチャーチ",
         subtitleOne: "あなたの教会を以下のカテゴリーからどのように評価されますか？",
         subtitleTwo: "0点から10点でお答えください。",
         subtitleThree: "（カテゴリー名をクリックください。）",

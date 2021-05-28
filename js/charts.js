@@ -62,22 +62,43 @@ function createRadarChartConfig() {
             }
         }
       },
-      legend: {
-        display: false
-      }
+      plugins: {
+        legend: {
+            display: false
+        }
+      },
     },
   };
 };
 
-function getInitialChartData() {
+function getLabels(langIndex) {
   var labels = [];
+
+  var textData = getTextData(langIndex);
+  for(var i = 0; i <textData.categories.length; i++) {
+    var name = textData.categories[i].name;
+    var removeText = langIndex === 0 ? 'Biblical ' : '聖書的な'
+    var shortName = name.replace(removeText,'');
+    labels.push(shortName);
+  }
+
+  return labels;
+}
+
+function updateLabels(langIndex) {
+  var labels = getLabels(langIndex);
+  barChart.data.labels = labels;
+  barChart.update();
+  radarChart.data.labels = labels;
+  radarChart.update();
+}
+
+function getInitialChartData() {
+  var labels = getLabels(0);
   var values = [];
   
   var textData = getTextData(0);
   for(var i = 0; i <textData.categories.length; i++) {
-    var name = textData.categories[i].name;
-    var shortName = name.replace('Biblical ','');
-    labels.push(shortName);
     values.push(50.00);
   }
   
@@ -85,7 +106,7 @@ function getInitialChartData() {
     labels: labels,
     datasets: [
       {
-        label: 'Dataset 1',
+        label: '',
         data: values,
         backgroundColor: 'rgba(54, 162, 235, 0.2)',
         borderColor: 'rgb(54, 162, 235)',

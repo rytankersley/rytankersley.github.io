@@ -31,6 +31,8 @@ function setText(languageIndex) {
     document.getElementById('subtitle3').innerHTML = data.subtitleThree;
     
     document.getElementById('accordion').innerHTML = getCategoriesHTML(data);
+
+    updateLabels(languageIndex);
 }
 
 function getCategoryAverages() {
@@ -110,7 +112,7 @@ function getCategoriesHTML(data) {
              </button>
           </h5>
        </div>
-       <div id='collapse${i}' class='collapse' aria-labelledby='heading${i}' data-parent='#accordion'>
+       <div id='collapse${i}' class='collapse show' aria-labelledby='heading${i}' data-parent='#accordion'>
           <div class='card-body'>
              <p class='category-description'>${cat.description}</p>
              ${appendQuestions(cat)}    

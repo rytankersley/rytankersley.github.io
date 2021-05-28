@@ -2399,7 +2399,7 @@ function getTextData(langIndex) {
             mainheader: "Healthy Church Questionnaire",
             subtitleOne: "On a scale of 1-10",
             subtitleTwo: "how would you rank each category below?",
-            subtitleThree: "(click category name to rank)",
+            subtitleThree: "",//"(click category name to rank)",
             categories: enCategories,
             chartheader: "Chart Visualization"
         };
@@ -2409,7 +2409,7 @@ function getTextData(langIndex) {
         mainheader: "ヘルシーチャーチ",
         subtitleOne: "あなたの教会を以下のカテゴリーからどのように評価されますか？",
         subtitleTwo: "0点から10点でお答えください。",
-        subtitleThree: "（カテゴリー名をクリックください。）",
+        subtitleThree: "",//"（カテゴリー名をクリックください。）",
         categories: jpCategories,
         chartheader: "Chart Visualization"
     }

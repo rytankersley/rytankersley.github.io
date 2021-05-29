@@ -1916,29 +1916,23 @@ var leadershipJP = {
         text: 
         `＜執事について＞ 第一テモテへの手紙3章8−13節に記された「執事としての聖書的条件」は、どのくらい当てはまっていますか？`,
         verse: 
-        `Deacons likewise must be dignified, not double-tongued, not 
-        addicted to much wine, not greedy for dishonest gain. They 
-        must hold the mystery of the faith with a clear conscience. 
-        And let them also be tested first; then let them serve as 
-        deacons if they prove themselves blameless. Their wives 
-        likewise must be dignified, not slanderers, but 
-        sober-minded, faithful in all things. Let deacons each 
-        be the husband of one wife, managing their children 
-        and their own households well. For those who serve 
-        well as deacons gain a good standing for themselves 
-        and also great confidence in the faith that is in Christ Jesus.
+        `同じように執事たちも、品位があり、二枚舌を使わず、大酒飲みでなく、不正な利を求めず、
+        きよい良心をもって、信仰の奥義を保っている人でなければなりません。
+        この人たちも、まず審査を受けさせなさい。そして、非難される点がなければ、執事として仕えさせなさい。
+        この奉仕に就く女の人も同じように、品位があり、人を中傷する者でなく、自分を制し、すべてに忠実な人でなければなりません。
+        執事は一人の妻の夫であって、子どもと家庭をよく治める人でなければなりません。
+        執事として立派に仕えた人は、良い地歩を占め、また、キリスト・イエスを信じる信仰について、強い確信を持つことができるのです。
         `,
-        verseRef: "1 Tim. 3:8-13"
+        verseRef: "テモテへの手紙 第一 3:8-13"
     },{
         index: 2,
         text: 
         `あなたの教会では、複数の長老を地域教会の指導者に任命することを推奨していますか？
         `,
         verse: 
-        `And he gave the apostles, the prophets, the evangelists, 
-        the shepherds and teachers,"
+        `こうして、キリストご自身が、ある人たちを使徒、ある人たちを預言者、ある人たちを伝道者、ある人たちを牧師また教師としてお立てになりました。"
         `,
-        verseRef: "Eph. 4:11"
+        verseRef: "エペソ人への手紙 4:11"
     },{
         index: 3,
         text: 
@@ -1953,52 +1947,39 @@ var leadershipJP = {
         `あなたの教会のリーダーたちは、御心に従ってどれくらい積極的にリードしていますか？また、教会員はどれくらいその権威に従っていますか？
         `,
         verse: 
-        `Obey your leaders and submit to them, for they are keeping 
-        watch over your souls, as those who will have to give an 
-        account. Let them do this with joy and not with groaning, 
-        for that would be of no advantage to you.
+        `あなたがたの指導者たちの言うことを聞き、また服従しなさい。この人たちは神に申し開きをする者として、あなたがたのたましいのために見張りをしているのです。ですから、この人たちが喜んでそのことをし、嘆きながらすることにならないようにしなさい。そうでないと、あなたがたの益にはならないからです。
         `,
-        verseRef: "Heb. 13:17"
+        verseRef: "へブル人への手紙 13:17"
     },{
         index: 5,
         text: 
         `あなたの教会のリーダーたちは、どれくらい率先的に教会内外の脅威から教会を守るために取り組んでいますか？
         `,
         verse: 
-        `Pay careful attention to yourselves and to all the flock, 
-        in which the Holy Spirit has made you overseers, to care for 
-        the church of God, which he obtained with his own blood. 
-        I know that after my departure fierce wolves will come in 
-        among you, not sparing the flock; and from among your own 
-        selves will arise men speaking twisted things, to draw away 
-        the disciples after them. Therefore be alert, remembering 
-        that for three years I did not cease night or day to admonish 
-        every one with tears. 32 And now I commend you to God and to 
-        the word of his grace, which is able to build you up and to 
-        give you the inheritance among all those who are sanctified.
+        `あなたがたは自分自身と群れの全体に気を配りなさい。神がご自分の血をもって買い取られた神の教会を牧させるために、聖霊はあなたがたを群れの監督にお立てになったのです。
+        私は知っています。私が去った後、狂暴な狼があなたがたの中に入り込んで来て、容赦なく群れを荒らし回ります。
+        また、あなたがた自身の中からも、いろいろと曲がったことを語って、弟子たちを自分のほうに引き込もうとする者たちが起こってくるでしょう。
+        ですから、私が三年の間、夜も昼も、涙とともにあなたがた一人ひとりを訓戒し続けてきたことを思い起こして、目を覚ましていなさい。
+        今私は、あなたがたを神とその恵みのみことばにゆだねます。みことばは、あなたがたを成長させ、聖なるものとされたすべての人々とともに、あなたがたに御国を受け継がせることができるのです。
         `,
-        verseRef: "Acts 20:28-32"
+        verseRef: "使徒の働き 20:28-32"
     },{
         index: 6,
         text: 
         `あなたの教会のリーダーたちは、教会を建てあげるため、良い働きに備えるために、どれくらい積極的に聖書に基づいて教えることをしていますか？`,
         verse: 
-        `All Scripture is breathed out by God and profitable for 
-        teaching, for reproof, for correction, and for training in 
-        righteousness, that the man of God may be complete, equipped 
-        for every good work.
-        `,
-        verseRef: "2 Tim. 3:16-17"
+        `どうか、平和の主ご自身が、どんな時にも、どんな場合にも、あなたがたに平和を与えてくださいますように。どうか、主があなたがたすべてとともにいてくださいますように。
+        　私パウロが自分の手であいさつを記します。これは、私のどの手紙にもあるしるしです。このように私は書くのです。`,
+        verseRef: "テサロニケ人への手紙 第二 3:16-17"
     },{
         index: 7,
         text: 
         `あなたの教会のリーダーたちは、教会をたてあげることを目的として、一人一人を教会の重要なミニストリーに備えようとどれくらい積極的に働いてますか？
         `,
         verse: 
-        `to equip the saints for the work of ministry, for building 
-        up the body of Christ,
+        `それは、聖徒たちを整えて奉仕の働きをさせ、キリストのからだを建て上げるためです。
         `,
-        verseRef: "Eph. 4:12"
+        verseRef: "エペソ人への手紙 4:12"
     },{
         index: 8,
         text: 
@@ -2027,22 +2008,18 @@ var disciplineJP = {
         `あなたの教会は、どれくらい教会全体の霊的訓練が上手くいっていますか？
         `,
         verse: 
-        `"It is actually reported that there is sexual immorality among you, and of a kind that is not tolerated even among pagans, for a man has his father's wife. And you are arrogant! Ought you not rather to mourn? Let him who has done this be removed from among you.
-
-        For though absent in body, I am present in spirit; and as if present, I have already pronounced judgment on the one who did such a thing. 
-        When you are assembled in the name of the Lord Jesus and my spirit is present, with the power of our Lord Jesus, 
-        you are to deliver this man to Satan for the destruction of the flesh, so that his spirit may be saved in the day of the Lord.
-        
-        Your boasting is not good. Do you not know that a little leaven leavens the whole lump? 
-        Cleanse out the old leaven that you may be a new lump, as you really are unleavened. For Christ, our Passover lamb, has been sacrificed. 
-        Let us therefore celebrate the festival, not with the old leaven, the leaven of malice and evil, but with the unleavened bread of sincerity and truth.
-        
-        I wrote to you in my letter not to associate with sexually immoral people— 
-        not at all meaning the sexually immoral of this world, or the greedy and swindlers, or idolaters, since then you would need to 
-        go out of the world. 11 But now I am writing to you not to associate with anyone who bears the name of brother if he is 
-        guilty of sexual immorality or greed, or is an idolater, reviler, drunkard, or swindler—not even to eat with such a one. 
-        For what have I to do with judging outsiders? Is it not those inside the church[b] whom you are to judge?"
-        `,
+        `現に聞くところによれば、あなたがたの間には淫らな行いがあり、しかもそれは、異邦人の間にもないほどの淫らな行いで、父の妻を妻にしている者がいるとのことです。
+        それなのに、あなたがたは思い上がっています。むしろ、悲しんで、そのような行いをしている者を、自分たちの中から取り除くべきではなかったのですか。
+        私は、からだは離れていても霊においてはそこにいて、実際にそこにいる者のように、そのような行いをした者をすでにさばきました。
+        すなわち、あなたがたと、私の霊が、私たちの主イエスの名によって、しかも私たちの主イエスの御力とともに集まり、
+        そのような者を、その肉が滅ぼされるようにサタンに引き渡したのです。それによって彼の霊が主の日に救われるためです。
+        あなたがたが誇っているのは、良くないことです。わずかなパン種が、こねた粉全体をふくらませることを、あなたがたは知らないのですか。
+        新しいこねた粉のままでいられるように、古いパン種をすっかり取り除きなさい。あなたがたは種なしパンなのですから。私たちの過越の子羊キリストは、すでに屠られたのです。
+        ですから、古いパン種を用いたり、悪意と邪悪のパン種を用いたりしないで、誠実と真実の種なしパンで祭りをしようではありませんか。
+        　私は前の手紙で、淫らな行いをする者たちと付き合わないようにと書きました。
+        それは、この世の淫らな者、貪欲な者、奪い取る者、偶像を拝む者と、いっさい付き合わないようにという意味ではありません。そうだとしたら、この世から出て行かなければならないでしょう。
+        私が今書いたのは、兄弟と呼ばれる者で、淫らな者、貪欲な者、偶像を拝む者、人をそしる者、酒におぼれる者、奪い取る者がいたなら、そのような者とは付き合ってはいけない、一緒に食事をしてもいけない、ということです。
+        外部の人たちをさばくことは、私がすべきことでしょうか。あなたがたがさばくべき者は、内部の人たちではありませんか。`,
         verseRef: "1 Cor. 5:1-12"
     },{
         index: 2,
@@ -2050,59 +2027,49 @@ var disciplineJP = {
         `あなたの教会員は、マタイ18章15−17節でイエス様が示された関係修復のためのプロセスにきちんと従っていますか？
         `,
         verse: 
-        `“If your brother sins against you, go and tell him his fault, between you and him alone. If he listens to you, you have gained your brother. 
-        But if he does not listen, take one or two others along with you, that every charge may be established by the evidence of two or three witnesses. 
-        If he refuses to listen to them, tell it to the church. And if he refuses to listen even to the church, let him be to you as a Gentile and a tax collector. 
-        Truly, I say to you, whatever you bind on earth shall be bound in heaven, and whatever you loose on earth shall be loosed in heaven. 
-        Again I say to you, if two of you agree on earth about anything they ask, it will be done for them by my Father in heaven. 
-        For where two or three are gathered in my name, there am I among them.”
+        `また、もしあなたの兄弟があなたに対して罪を犯したなら、行って二人だけのところで指摘しなさい。その人があなたの言うことを聞き入れるなら、あなたは自分の兄弟を得たことになります。
+        もし聞き入れないなら、ほかに一人か二人、一緒に連れて行きなさい。二人または三人の証人の証言によって、すべてのことが立証されるようにするためです。
+        それでもなお、言うことを聞き入れないなら、教会に伝えなさい。教会の言うことさえも聞き入れないなら、彼を異邦人か取税人のように扱いなさい。
         `,
-        verseRef: "Matthew 18:15-17"
+        verseRef: "マタイの福音書 18:15-17"
     },{
         index: 3,
         text: 
         `あなたの教会では、長老に対する訴えが第一テモテへの手紙5章19節に従って行われていますか？
         `,
         verse: 
-        `Do not admit a charge against an elder except on the evidence of two or three witnesses.
+        `長老に対する訴えは、二人か三人の証人がいなければ、受理してはいけません。
         `,
-        verseRef: "1 Timothy 5:19"
+        verseRef: "テモテへの手紙 第一 5:19"
     },{
         index: 4,
         text: 
         `あなたの教会は、教会員の明白な罪をさばく際に、どれだけ良い結果を生み出すような対処をしていますか？
         `,
         verse: 
-        `I wrote to you in my letter not to associate with sexually immoral people— 
-        not at all meaning the sexually immoral of this world, or the greedy and swindlers, or idolaters, since then you would need to go 
-        out of the world. But now I am writing to you not to associate with anyone who bears the name of brother if he is guilty of 
-        sexual immorality or greed, or is an idolater, reviler, drunkard, or swindler—not even to eat with such a one. 
-        For what have I to do with judging outsiders? Is it not those inside the church whom you are to judge? God judges those outside. 
-        “Purge the evil person from among you.”  /  As for the one who is weak in faith, welcome him, but not to quarrel over opinions. 
-        One person believes he may eat anything, while the weak person eats only vegetables. 
-        Let not the one who eats despise the one who abstains, and let not the one who abstains pass judgment on the one who eats, for God has welcomed him. 
-        Who are you to pass judgment on the servant of another? It is before his own master that he stands or falls. And he will be upheld, for the 
-        Lord is able to make him stand.
-
-        One person esteems one day as better than another, while another esteems all days alike. Each one should be fully convinced in his own mind. 
-        The one who observes the day, observes it in honor of the Lord. The one who eats, eats in honor of the Lord, since he gives thanks to God, 
-        while the one who abstains, abstains in honor of the Lord and gives thanks to God. 
-        For none of us lives to himself, and none of us dies to himself. 
-        For if we live, we live to the Lord, and if we die, we die to the Lord. So then, whether we live or whether we die, we are the Lord's. 
-        For to this end Christ died and lived again, that he might be Lord both of the dead and of the living.
-        
-        1Why do you pass judgment on your brother? Or you, why do you despise your brother? For we will all stand before the judgment seat of God; 
-        for it is written,
-        
-        “As I live, says the Lord, every knee shall bow to me,
-            and every tongue shall confess[b] to God.”
-        
-        So then each of us will give an account of himself to God.
-        
-        Do Not Cause Another to Stumble
-        Therefore let us not pass judgment on one another any longer, but rather decide never to put a stumbling block or hindrance in the way of a brother."
+        `私は前の手紙で、淫らな行いをする者たちと付き合わないようにと書きました。
+        それは、この世の淫らな者、貪欲な者、奪い取る者、偶像を拝む者と、いっさい付き合わないようにという意味ではありません。そうだとしたら、この世から出て行かなければならないでしょう。
+        私が今書いたのは、兄弟と呼ばれる者で、淫らな者、貪欲な者、偶像を拝む者、人をそしる者、酒におぼれる者、奪い取る者がいたなら、そのような者とは付き合ってはいけない、一緒に食事をしてもいけない、ということです。
+        外部の人たちをさばくことは、私がすべきことでしょうか。あなたがたがさばくべき者は、内部の人たちではありませんか。
+        外部の人たちは神がおさばきになります。「あなたがたの中からその悪い者を除き去りなさい。」・
+        信仰の弱い人を受け入れなさい。その意見をさばいてはいけません。
+        ある人は何を食べてもよいと信じていますが、弱い人は野菜しか食べません。
+        食べる人は食べない人を見下してはいけないし、食べない人も食べる人をさばいてはいけません。神がその人を受け入れてくださったのです。
+        他人のしもべをさばくあなたは何者ですか。しもべが立つか倒れるか、それは主人次第です。しかし、しもべは立ちます。主は、彼を立たせることがおできになるからです。
+        ある日を別の日よりも大事だと考える人もいれば、どの日も大事だと考える人もいます。それぞれ自分の心の中で確信を持ちなさい。
+        特定の日を尊ぶ人は、主のために尊んでいます。食べる人は、主のために食べています。神に感謝しているからです。食べない人も主のために食べないのであって、神に感謝しているのです。
+        私たちの中でだれ一人、自分のために生きている人はなく、自分のために死ぬ人もいないからです。
+        私たちは、生きるとすれば主のために生き、死ぬとすれば主のために死にます。ですから、生きるにしても、死ぬにしても、私たちは主のものです。
+        キリストが死んでよみがえられたのは、死んだ人にも生きている人にも、主となるためです。
+        それなのに、あなたはどうして、自分の兄弟をさばくのですか。どうして、自分の兄弟を見下すのですか。私たちはみな、神のさばきの座に立つことになるのです。
+        次のように書かれています。
+        　　「わたしは生きている──主のことば──。
+        　　すべての膝は、わたしに向かってかがめられ、
+        　　すべての舌は、神に告白する。」
+        ですから、私たちはそれぞれ自分について、神に申し開きをすることになります。
+        　こういうわけで、私たちはもう互いにさばき合わないようにしましょう。いや、むしろ、兄弟に対して妨げになるもの、つまずきになるものを置くことはしないと決心しなさい。
         `,
-        verseRef: "1 Cor. 5:9-13, Rom. 14:1-13"
+        verseRef: "コリント人への手紙 第一  5:9-13, ローマ人への手紙 14:1-13"
     },{
         index: 5,
         text: 
@@ -2123,76 +2090,77 @@ var fellowshipJP = {
         createQuestion(0, 
             `あなたの教会では、どのくらい互いに愛をもって接していますか？
             `, 
-            `A new commandment I give to you, that you love one another: just as I have loved you, you also are to love one another.
+            `わたしはあなたがたに新しい戒めを与えます。互いに愛し合いなさい。わたしがあなたがたを愛したように、あなたがたも互いに愛し合いなさい。
             `, 
-            `John 13:34`),
+            `ヨハネの福音書 13:34`),
         createQuestion(1, 
             `あなたの教会では、どのくらい互いに平和を保てていますか？
             `, 
-            `and to esteem them very highly in love because of their work. Be at peace among yourselves.
+            `その働きのゆえに、愛をもって、この上ない尊敬を払いなさい。また、お互いに平和を保ちなさい。
             `, 
-            `1 Thess. 5:13`),
+            `テサロニケ人への手紙 第一 5:13`),
         createQuestion(2, 
             `あなたの教会では、どのくらい互いに謙って接することができていますか？
             `, 
-            `Likewise, you who are younger, be subject to the elders. Clothe yourselves, all of you, with humility toward one another, for 
-            "God opposes the proud but gives grace to the humble."
-            `, 
-            `1 Pet. 5:5`),
+            `　同じように、若い人たちよ、長老たちに従いなさい。みな互いに謙遜を身に着けなさい。
+            　　「神は高ぶる者には敵対し、
+            　　へりくだった者には恵みを与えられる」
+            のです。`, 
+            `ペテロの手紙 第一 5:5`),
         createQuestion(3, 
             `あなたの教会では、どのくらいお互いを敬いながら接することができていますか？
             `, 
-            `Love one another with brotherly affection. Outdo one another in showing honor.
+            `兄弟愛をもって互いに愛し合い、互いに相手をすぐれた者として尊敬し合いなさい。
             `, 
-            `Rom. 12:10`),
+            `ローマ人への手紙 12:10`),
         createQuestion(4, 
             `あなたの教会では、どのくらい互いに親切に接することができていますか？
             `, 
-            `Be kind to one another, tenderhearted, forgiving one another, as God in Christ forgave you.
+            `互いに親切にし、優しい心で赦し合いなさい。神も、キリストにおいてあなたがたを赦してくださったのです。
             `, 
-            `Eph. 4:32`),
+            `エペソ人への手紙 4:32`),
         createQuestion(5, 
             `あなたの教会では、どのくらい一致を保てていますか？
             `, 
-            `eager to maintain the unity of the Spirit in the bond of peace.
+            `平和の絆で結ばれて、御霊による一致を熱心に保ちなさい。
             `, 
-            `Eph. 4:3`),
+            `エペソ人への手紙 4:3`),
         createQuestion(6, 
             `あなたの教会では、どのくらいお互いを挑発することを避けていますか？
             `, 
-            `Let us not become conceited, provoking one another, envying one another.
+            `うぬぼれて、互いに挑み合ったり、ねたみ合ったりしないようにしましょう。
             `, 
-            `Gal. 5:26`),
+            `ガラテヤ人への手紙 5:26`),
         createQuestion(7, 
             `あなたの教会では、どのくらい互いに嫉み・嫉みを持つことを避けていますか？
             `, 
-            `Let us not become conceited, provoking one another, envying one another.
+            `うぬぼれて、互いに挑み合ったり、ねたみ合ったりしないようにしましょう。
             `, 
-            `Gal. 5:26`),
+            `ガラテヤ人への手紙 5:26`),
         createQuestion(8, 
             `あなたの教会では、簡単に白黒付けられないようなことで裁き合うことをどのくらい避けていますか？
             `, 
-            `Therefore let us not pass judgment on one another any longer, but rather decide never to put a stumbling block or hindrance in the way of a brother.
+            `こういうわけで、私たちはもう互いにさばき合わないようにしましょう。いや、むしろ、兄弟に対して妨げになるもの、つまずきになるものを置くことはしないと決心しなさい。
             `, 
-            `Rom. 14:13`),
+            `ローマ人への手紙 14:13`),
         createQuestion(9, 
             `あなたの教会では、どのくらい互いに励まし合っていますか？
             `, 
-            `Therefore encourage one another and build one another up, just as you are doing.
+            `ですからあなたがたは、現に行っているとおり、互いに励まし合い、互いを高め合いなさい。
             `, 
-            `1 Thess. 5:11`),
+            `テサロニケ人への手紙 第一 5:11`),
         createQuestion(10, 
             `あなたの教会では、どのくらい互いに建てあげることをしていますか？
             `, 
-            `Therefore encourage one another and build one another up, just as you are doing.
+            `ですからあなたがたは、現に行っているとおり、互いに励まし合い、互いを高め合いなさい。
             `, 
-            `1 Thess. 5:11`),
+            `ですからあなたがたは、現に行っているとおり、互いに励まし合い、互いを高め合いなさい。`),
         createQuestion(11, 
             `あなたの教会では、どのくらい互いに仕えていますか？
             `, 
-            `For you were called to freedom, brothers. Only do not use your freedom as an opportunity for the flesh, but through love serve one another.
+            `兄弟たち。あなたがたは自由を与えられるために召されたのです。ただ、その自由を肉の働く機会としないで、愛をもって互いに仕え合いなさい。
             `, 
-            `Gal. 5:13`),
+            `ガラテヤ人への手紙 5:13`),
         createQuestion(12, 
             `あなたの教会では、どのくらい互いの重荷を負い合っていますか？
             `, 
@@ -2202,9 +2170,9 @@ var fellowshipJP = {
         createQuestion(13, 
             `あなたの教会では、どのくらい互いに赦しあっていますか？
             `, 
-            `bearing with one another and, if one has a complaint against another, forgiving each other; as the Lord has forgiven you, so you also must forgive.
+            `互いに忍耐し合い、だれかがほかの人に不満を抱いたとしても、互いに赦し合いなさい。主があなたがたを赦してくださったように、あなたがたもそうしなさい。
             `, 
-            `Col. 3:13`),
+            `コロサイ人への手紙 3:13`),
         createQuestion(14, 
             `あなたの教会では、どのくらい互いに従い合っていますか？
             `, 
@@ -2214,43 +2182,41 @@ var fellowshipJP = {
         createQuestion(15, 
             `あなたの教会では、どのくらい互いに善を行なっていますか？
             `, 
-            `So then, as we have opportunity, let us do good to everyone, and especially to those who are of the household of faith.
+            `ですから、私たちは機会があるうちに、すべての人に、特に信仰の家族に善を行いましょう。
             `, 
-            `Gal. 6:10`),
+            `[ガラテヤ人への手紙 6:10`),
         createQuestion(16, 
             `あなたの教会では、どのくらい互いに交わりを持っていますか？
             `, 
-            `But if we walk in the light, as he is in the light, we have fellowship with one another, and the blood of Jesus his Son cleanses us from all sin.
+            `もし私たちが、神が光の中におられるように、光の中を歩んでいるなら、互いに交わりを持ち、御子イエスの血がすべての罪から私たちをきよめてくださいます。
             `, 
-            `1 John 1:7`),
+            `ヨハネの手紙 第一 1:7`),
         createQuestion(17, 
             `あなたの教会では、どのくらい互いに教え合い、忠告し合っていますか？
             `, 
-            `Let the word of Christ dwell in you richly, teaching and admonishing one another in all wisdom, singing psalms and hymns and spiritual songs, 
-            with thankfulness in your hearts to God.
+            `キリストのことばが、あなたがたのうちに豊かに住むようにしなさい。知恵を尽くして互いに教え、忠告し合い、詩と賛美と霊の歌により、感謝をもって心から神に向かって歌いなさい。
             `, 
-            `Col. 3:16`),
+            `コロサイ人への手紙 3:16`),
         createQuestion(18, 
             `あなたの教会では、どのくらい互いに配慮し合っていますか？
             `, 
-            `that there may be no division in the body, but that the members may have the same care for one another.
+            `それは、からだの中に分裂がなく、各部分が互いのために、同じように配慮し合うためです。
             `, 
-            `1 Cor. 12:25`),
+            `コリント人への手紙 第一  12:25`),
         createQuestion(19, 
             `あなたの教会では、どのくらい互いに聖書的な話し方（相手の徳を高めること・相手をけなさないこと）をしていますか？
             `, 
-            `Rather, speaking the truth in love, we are to grow up in every way into him who is the head, into Christ,  /  Let 
-            no corrupting talk come out of your mouths, but only such as is good for building up, as fits the occasion, that 
-            it may give grace to those who hear.  /  Do not speak evil against one another, brothers. The one who speaks against a 
-            brother or judges his brother, speaks evil against the law and judges the law. But if you judge the law, you are not a doer of the law but a judge.
+            `むしろ、愛をもって真理を語り、あらゆる点において、かしらであるキリストに向かって成長するのです。・
+            悪いことばを、いっさい口から出してはいけません。むしろ、必要なときに、人の成長に役立つことばを語り、聞く人に恵みを与えなさい。・
+            兄弟たち、互いに悪口を言い合ってはいけません。自分の兄弟について悪口を言ったり、さばいたりする者は、律法について悪口を言い、律法をさばいているのです。もしあなたが律法をさばくなら、律法を行う者ではなく、さばく者です。
             `, 
-            `Eph. 4:15, 29, Jms 4:11`),
+            `エペソ人への手紙 4:15,29, ヤコブの手紙 4:11`),
         createQuestion(20, 
             `あなたの教会では、どのくらいかみつき合ったり、食い合ったりすることを避けていますか？
             `, 
-            `But if you bite and devour one another, watch out that you are not consumed by one another.
+            `気をつけなさい。互いに、かみつき合ったり、食い合ったりしているなら、互いの間で滅ぼされてしまいます。
             `, 
-            `Gal. 5:15`),
+            `ガラテヤ人への手紙 5:15`),
         createQuestion(21, 
             `まとめ：もし外部者が教会内の人間関係を観察したとしたら、あなたの教会の総合的な「交わりの健康状態」をどう評価するでしょうか？
             `, 
@@ -2339,47 +2305,37 @@ var ordinanceJP = {
         createQuestion(0, 
             `【洗礼】あなたの教会は信仰告白した人の洗礼を聖書的に行なっていますか？（幼児洗礼を除く）
             `,
-            `We were buried therefore with him by baptism into death, in order that, just as Christ was raised from the dead by the 
-            glory of the Father, we too might walk in newness of life.  /  And Peter said to them, “Repent and be baptized every one 
-            of you in the name of Jesus Christ for the forgiveness of your sins, and you will receive the gift of the Holy Spirit. For the promise is 
-            for you and for your children and for all who are far off, everyone whom the Lord our God calls to himself.” 
-            And with many other words he bore witness and continued to exhort them, saying, “Save yourselves from this crooked generation.” 
-            So those who received his word were baptized, and there were added that day about three thousand souls.  /  But when 
-            they believed Philip as he preached good news about the kingdom of God and the name of Jesus Christ, they were baptized, 
-            both men and women.  /  And as they were going along the road they came to some water, and the eunuch said, 
-            “See, here is water! What prevents me from being baptized?” And he commanded the chariot to stop, and 
-            they both went down into the water, Philip and the eunuch, and he baptized him.
+            `私たちは、キリストの死にあずかるバプテスマによって、キリストとともに葬られたのです。それは、ちょうどキリストが御父の栄光によって死者の中からよみがえられたように、私たちも、新しいいのちに歩むためです。・
+            そこで、ペテロは彼らに言った。「それぞれ罪を赦していただくために、悔い改めて、イエス・キリストの名によってバプテスマを受けなさい。そうすれば、賜物として聖霊を受けます。この約束は、あなたがたに、あなたがたの子どもたちに、そして遠くにいるすべての人々に、すなわち、私たちの神である主が召される人ならだれにでも、与えられているのです。」
+ペテロは、ほかにも多くのことばをもって証しをし、「この曲がった時代から救われなさい」と言って、彼らに勧めた。彼のことばを受け入れた人々はバプテスマを受けた。その日、三千人ほどが仲間に加えられた。・
+しかし人々は、ピリポが神の国とイエス・キリストの名について宣べ伝えたことを信じて、男も女もバプテスマを受けた。・
+道を進んで行くうちに、水のある場所に来たので、宦官は言った。「見てください。水があります。私がバプテスマを受けるのに、何か妨げがあるでしょうか。」そして、馬車を止めるように命じた。ピリポと宦官は二人とも水の中に降りて行き、ピリポが宦官にバプテスマを授けた。
             `,
-            `Rom. 6:4, i.e. Acts 2:38-41, 8:12, 36-38, etc.`),
+            `ローマ人への手紙 6:4, 例えば、 使徒の働き 2:38-41, 8:12, 36-38, etc.`),
         createQuestion(1, 
             `【洗礼】あなたの教会はイエス様がされたように、水に浸ることによって洗礼を授けていますか？
             `,
-            `And when Jesus was baptized, immediately he went up from the water, and behold, the heavens were opened to him, and he saw the Spirit of 
-            God descending like a dove and coming to rest on him;
+            `イエスはバプテスマを受けて、すぐに水から上がられた。すると見よ、天が開け、神の御霊が鳩のようにご自分の上に降って来られるのをご覧になった。
             `,
-            `Matt. 3:16`),
+            `マタイの福音書 3:16`),
         createQuestion(2, 
             `【聖餐式】あなたの教会は、第一コリント人への手紙11章17−30節に従って、聖餐式を定期的にもっていますか？
             `,
-            `But in the following instructions I do not commend you, because when you come together it is not for the better but for the worse. 
-            For, in the first place, when you come together as a church, I hear that there are divisions among you. And I believe it in part, 
-            for there must be factions among you in order that those who are genuine among you may be recognized. 
-            When you come together, it is not the Lord's supper that you eat. 
-            For in eating, each one goes ahead with his own meal. One goes hungry, another gets drunk. 
-            What! Do you not have houses to eat and drink in? Or do you despise the church of God and humiliate those who have nothing? What shall I 
-            say to you? Shall I commend you in this? No, I will not.
-
-            For I received from the Lord what I also delivered to you, that the Lord Jesus on the night when he was betrayed took bread, 
-            and when he had given thanks, he broke it, and said, “This is my body, which is for you. Do this in remembrance of me.” 
-            In the same way also he took the cup, after supper, saying, “This cup is the new covenant in my blood. Do this, as often as you drink it, 
-            in remembrance of me.” For as often as you eat this bread and drink the cup, you proclaim the Lord's death until he comes.
-            
-            Whoever, therefore, eats the bread or drinks the cup of the Lord in an unworthy manner will be guilty concerning the body and blood of the Lord. 
-            Let a person examine himself, then, and so eat of the bread and drink of the cup. 
-            For anyone who eats and drinks without discerning the body eats and drinks judgment on himself. 
-            That is why many of you are weak and ill, and some have died."
-            `,
-            `1 Cor. 11:17-30`),
+            `ところで、次のことを命じるにあたって、私はあなたがたをほめるわけにはいきません。あなたがたの集まりが益にならず、かえって害になっているからです。
+            まず第一に、あなたがたが教会に集まる際、あなたがたの間に分裂があると聞いています。ある程度は、そういうこともあろうかと思います。
+            実際、あなたがたの間で本当の信者が明らかにされるためには、分派が生じるのもやむを得ません。
+            しかし、そういうわけで、あなたがたが一緒に集まっても、主の晩餐を食べることにはなりません。
+            というのも、食事のとき、それぞれが我先にと自分の食事をするので、空腹な者もいれば、酔っている者もいるという始末だからです。
+            あなたがたには、食べたり飲んだりする家がないのですか。それとも、神の教会を軽んじて、貧しい人たちに恥ずかしい思いをさせたいのですか。私はあなたがたにどう言うべきでしょうか。ほめるべきでしょうか。このことでは、ほめるわけにはいきません。
+            　私は主から受けたことを、あなたがたに伝えました。すなわち、主イエスは渡される夜、パンを取り、
+            感謝の祈りをささげた後それを裂き、こう言われました。「これはあなたがたのための、わたしのからだです。わたしを覚えて、これを行いなさい。」
+            食事の後、同じように杯を取って言われました。「この杯は、わたしの血による新しい契約です。飲むたびに、わたしを覚えて、これを行いなさい。」
+            ですから、あなたがたは、このパンを食べ、杯を飲むたびに、主が来られるまで主の死を告げ知らせるのです。
+            　したがって、もし、ふさわしくない仕方でパンを食べ、主の杯を飲む者があれば、主のからだと血に対して罪を犯すことになります。
+            だれでも、自分自身を吟味して、そのうえでパンを食べ、杯を飲みなさい。
+            みからだをわきまえないで食べ、また飲む者は、自分自身に対するさばきを食べ、また飲むことになるのです。
+            あなたがたの中に弱い者や病人が多く、死んだ者たちもかなりいるのは、そのためです。`,
+            `コリント人への手紙 第一  11:17-30`),
         createQuestion(3, 
             `まとめ：あなたの教会は、洗礼式と聖餐式をどれくらい聖書的に行なっていますか？
             `,
